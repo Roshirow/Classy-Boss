@@ -30,6 +30,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 body {
@@ -1185,8 +1186,8 @@ body {
   font-family: timberline, sans-serif;
   font-weight: 400;
   font-style: normal;
-  border-left: 5px solid #222222;
-  border-top: 5px solid #222222;
+  border-left: 1px solid #555555;
+  border-top: 1px solid #555555;
   padding-left: 0.5em;
   padding-top: 0.2em;
   padding-bottom: 0.3em;
@@ -1205,5 +1206,57 @@ body {
   font-size: 1.1em;
   font-weight: 600;
   color: #dbdbdb;
+}
+
+.container-2 .animation {
+  z-index: -10;
+  position: absolute;
+  width: 2000px;
+  top: 5%;
+}
+
+.container-2 .animation h1 {
+  font-family: 'impact';
+  font-weight: 700;
+  font-size: 8em;
+  opacity: 0;
+  color: #181818;
+  letter-spacing: .128em;
+  -webkit-animation-name: animateText;
+          animation-name: animateText;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+  left: -3em;
+}
+
+@-webkit-keyframes animateText {
+  0% {
+    left: 20em;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: -20em;
+  }
+}
+
+@keyframes animateText {
+  0% {
+    left: 20em;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: -20em;
+  }
 }
 /*# sourceMappingURL=social.css.map */
