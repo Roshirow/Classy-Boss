@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding:0;
+    width:100vw;
+    height: 100vh;
+    background:black;
+    color:white;
+    overflow-x:hidden;
+}
+
+*, *:before, *:before {
+    box-sizing: border-box;
+}
+
+.cover {
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    
+    h1 {
+        margin-left:100px;
+        text-align: left;
+        margin-top: 2em;
+        font-weight: lighter;
+        font-size: 5em;
+        line-height: 1em;
+        letter-spacing: .04em;
+        font-family: sans-serif;
+    }
+}
+.container {
+    padding: 2em;
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+
+    .platform-text {
+        display:flex;
+        flex-direction:column;
+        margin-left:10%;
+        margin-top:5%;
+    }
+
+    h2 {
+        line-height:1.5em;
+        text-align: left;
+    }
+
+    p {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        line-height: 1.5em;
+        color: white;
+        text-align: left;
+    }
+
+    .preview-platform {
+        width:100%;
+        display:block;
+        position:relative;
+        top:10%;
+        left:15%;
+            iframe {
+                width:550px;
+                height:450px;
+                border-radius:3%;
+            }
+            button {
+                color:white;
+                background-color: rgba(139, 0, 0, 0.082);
+                cursor: pointer;
+                border: 1px solid maroon;
+                padding: 15px;
+                border-radius: 5%;
+                margin-left: 50px;
+            }
+    }
+}
+header {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:2%;
+    margin-right:5%;
+    margin-left:5%;
+}
+.logo img {
+    width:3%;
+}
+h2 {
+    color:white;
+    font-size:3.5em;
+    margin:0;
+    font-weight:normal;
+    line-height:1em;
+}
+.subtext {
+    margin-top:0;
+    font-size:1.4em;
+    line-height:1em;
+    text-transform:uppercase;
+    color:white;
+}
+.secondary {
+    margin-top:25em;
+}
+.angles {
+    position:absolute;
+    z-index:-1;
+    width:100%;
+}
+.bg-bc {
+    z-index:-1;
+    width:100%;
+    position:absolute;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.angles {
+    top:90%;
+    height:30%;
+}
+.autumn {
+    z-index:-1;
+    position:absolute;
+    width: 100%;
+    height: 90%;
+    opacity:0.3;
+}
