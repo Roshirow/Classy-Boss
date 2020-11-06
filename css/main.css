@@ -6,6 +6,7 @@ body {
   background: black;
   color: white;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:before {

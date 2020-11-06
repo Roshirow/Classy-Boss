@@ -35,17 +35,17 @@
 </div>
 
 <div class="container secondary lax" data-lax-translate-y="0 0, 300 -500" data-lax-opacity="0 0, 500 1">
-    <div class="platform-text">
+    <div class="platform-text lax" data-lax-preset="driftRight">
         <h2>Strategic</h2>
         <p class="subtext">Social Profile Platform</p>
         <p>A project I designed with mobile and desktop taken into account.</p>
     </div>
 
     <div class="preview-platform">
-         <iframe src="social.html"></iframe>
+         <iframe src="/social.html"></iframe>
          <br>
          <br>
-         <button><a href="social.html"></a>Check it out</button>
+         <button onclick="document.location='/social.html'">Check it out</button>
     </div>
     <img class="autumn" src="/img/autumntrees.png" alt="autumn trees with mountains">
 </div>
@@ -56,7 +56,7 @@
 </body>
 
 <script src="/js/index.js"></script>
-
+<script src="lib/lax.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
 
 </html>
