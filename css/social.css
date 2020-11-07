@@ -30,7 +30,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -416,10 +416,10 @@ body {
 
 .profile-name {
   margin-left: 24px;
-  margin-bottom: 24px;
-  font-size: 30px;
+  margin-bottom: 35px;
+  font-size: 2em;
   letter-spacing: 2px;
-  color: mintcream;
+  color: white;
   font-weight: 600;
   font-family: "DM Sans", sans-serif;
 }
@@ -1146,117 +1146,6 @@ body {
   .profile-menu-link:nth-last-child(1),
   .profile-menu-link:nth-last-child(2) {
     display: none;
-  }
-}
-
-.container-2 {
-  margin-top: 10%;
-  background-color: black;
-  border-radius: 8%;
-  padding: 2em;
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container-2 .platform-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-left: 10%;
-}
-
-.container-2 .platform-text h2 {
-  line-height: 1.5em;
-  text-align: left;
-  font-size: 4em;
-  color: #720000;
-  font-family: timberline, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  border-left: 1px solid #555555;
-  border-top: 1px solid #555555;
-  padding-left: 0.5em;
-  padding-top: 0.2em;
-  padding-bottom: 0.3em;
-  padding-right: 0em;
-}
-
-.container-2 .platform-text p {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  line-height: 1.5em;
-  color: #c9c9c9;
-  text-align: left;
-  width: 60vw;
-}
-
-.container-2 .platform-text p strong {
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #dbdbdb;
-}
-
-.container-2 .animation {
-  z-index: -10;
-  position: absolute;
-  width: 2000px;
-  top: 5%;
-}
-
-.container-2 .animation h1 {
-  font-family: 'impact';
-  font-weight: 700;
-  font-size: 8em;
-  opacity: 0;
-  color: #181818;
-  letter-spacing: .128em;
-  -webkit-animation-name: animateText;
-          animation-name: animateText;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  position: relative;
-  left: -3em;
-}
-
-@-webkit-keyframes animateText {
-  0% {
-    left: 20em;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    left: -20em;
-  }
-}
-
-@keyframes animateText {
-  0% {
-    left: 20em;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    left: -20em;
   }
 }
 /*# sourceMappingURL=social.css.map */

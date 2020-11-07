@@ -63,7 +63,7 @@ body {
     height: 100vh;
     width:100vw;
     display:flex;
-    flex-direction:row;
+    flex-wrap: wrap;
     margin-right:7%;
 
     .platform-text {
@@ -71,6 +71,7 @@ body {
         flex-direction:column;
         margin-left:6%;
         margin-top:5%;
+        width:35vw;
 
     h2 {
         line-height:1.5em;
@@ -91,24 +92,27 @@ body {
     }
 }
     .preview-platform {
-        width:100%;
+        width:50vw;
         display:block;
         position:relative;
         top:10%;
         left:1%;
             iframe {
-                width:550px;
+                width:46vw;
                 height:450px;
                 border-radius:3%;
             }
             button {
+                font-size:0.9em;
+                letter-spacing:0.1em;
                 color:white;
-                background-color: rgba(139, 0, 0, 0.082);
+                background-color: rgba(139, 0, 0, 0.141);
                 cursor: pointer;
-                border: 1px solid maroon;
+                border: 1.5px solid maroon;
                 padding: 15px;
                 border-radius: 5%;
                 margin-left: 50px;
+                margin-top:50px;
             }
     }
 }
