@@ -298,3 +298,64 @@ h2 {
       opacity: 0;
     }
   }
+  .aboutme-page {
+      width:100vw;
+      height:100vh;
+      display:flex;
+      flex-wrap: wrap;
+
+      .about-text {
+          display:flex;
+          flex-direction:column;
+          margin-left:2em;
+          height:50vh;
+          justify-content: flex-start;
+
+          h1 {
+              font-family: Impact;
+              font-size:4em;
+              letter-spacing:0.1em;
+              font-weight: bold;
+          }
+
+          h2 {
+              font-size:2.5em;
+              letter-spacing:0.2em;
+              font-family:'M PLUS Rounded 1c', sans-serif;
+          }
+
+          p {
+              font-size:1.3em;
+              letter-spacing:0.05em;
+              line-height:2.5em;
+              margin-top:8%;
+          }
+      }
+
+      .about-softwares {
+          display:flex;
+          flex-direction:column;
+          height:30vh;
+          width:100vw;
+          justify-content: flex-start;
+          align-items: center;
+
+          h1 {
+            font-family: Impact;
+            font-size:4em;
+            letter-spacing:0.1em;
+            font-weight: bold;
+          }
+          .software-list {
+              display:flex;
+              flex-direction:row;
+              width:100vw;
+              justify-content: space-evenly;
+
+              p {
+                  font-family: sans-serif;
+                  font-size:1.1em;
+              }
+          }
+      }
+  }

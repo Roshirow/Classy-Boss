@@ -316,4 +316,93 @@ h2 {
     opacity: 0;
   }
 }
+
+.aboutme-page {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutme-page .about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 2em;
+  height: 50vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.aboutme-page .about-text h1 {
+  font-family: Impact;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.aboutme-page .about-text h2 {
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.aboutme-page .about-text p {
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+  line-height: 2.5em;
+  margin-top: 8%;
+}
+
+.aboutme-page .about-softwares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30vh;
+  width: 100vw;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutme-page .about-softwares h1 {
+  font-family: Impact;
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.aboutme-page .about-softwares .software-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.aboutme-page .about-softwares .software-list p {
+  font-family: sans-serif;
+  font-size: 1.1em;
+}
 /*# sourceMappingURL=main.css.map */
