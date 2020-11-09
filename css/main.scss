@@ -96,7 +96,7 @@ body {
         display:block;
         position:relative;
         top:10%;
-        left:1%;
+        left:3%;
             iframe {
                 width:46vw;
                 height:450px;
@@ -113,6 +113,23 @@ body {
                 border-radius: 5%;
                 margin-left: 50px;
                 margin-top:50px;
+            }
+            .used {
+                text-align:center;
+
+                h1 {
+                    font-size:1em;
+                    letter-spacing:0.05em;
+                    font-family:'M PLUS Rounded 1c', sans-serif;
+                    color:rgb(146, 146, 146);
+                    font-weight:900;
+                }
+                p {
+                    font-size:0.8em;
+                    letter-spacing:0.08em;
+                    font-family:'M PLUS Rounded 1c', sans-serif;
+                    color:rgb(182, 182, 182);
+                }
             }
     }
 }
@@ -356,3 +373,27 @@ h2 {
           }
       }
   }
+.end {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+
+    h1 {
+        text-align:center;
+        font-size:1.8em;
+        font-family:sans-serif;
+        letter-spacing:0.18em;
+        color:rgb(116, 116, 116);
+    }
+
+    p {
+        text-align:left;
+        font-size:1.4em;
+        font-family:sans-serif;
+        letter-spacing:0.1em;
+        line-height:1.8em;
+    }
+}

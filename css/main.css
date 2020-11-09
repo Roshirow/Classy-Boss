@@ -118,7 +118,7 @@ body {
   display: block;
   position: relative;
   top: 10%;
-  left: 1%;
+  left: 3%;
 }
 
 .container .preview-platform iframe {
@@ -138,6 +138,25 @@ body {
   border-radius: 5%;
   margin-left: 50px;
   margin-top: 50px;
+}
+
+.container .preview-platform .used {
+  text-align: center;
+}
+
+.container .preview-platform .used h1 {
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #929292;
+  font-weight: 900;
+}
+
+.container .preview-platform .used p {
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #b6b6b6;
 }
 
 header {
@@ -392,5 +411,39 @@ h2 {
   font-size: 1em;
   letter-spacing: 0.1em;
   color: #5e5e5e;
+}
+
+.end {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.end h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  letter-spacing: 0.18em;
+  color: #747474;
+}
+
+.end p {
+  text-align: left;
+  font-size: 1.4em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.8em;
 }
 /*# sourceMappingURL=main.css.map */
