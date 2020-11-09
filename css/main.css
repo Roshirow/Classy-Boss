@@ -145,15 +145,15 @@ body {
 }
 
 .container .preview-platform .used h1 {
-  font-size: 1em;
-  letter-spacing: 0.05em;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #929292;
   font-weight: 900;
 }
 
 .container .preview-platform .used p {
-  font-size: 0.8em;
+  font-size: 0.9em;
   letter-spacing: 0.08em;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #b6b6b6;
