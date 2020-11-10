@@ -382,20 +382,17 @@ body {
         position:absolute;
         z-index:-1;
         width:100%;
+        top:90%;
+        height:30%;
     }
     .bg-bc {
         z-index:-1;
-        width:100%;
         position:absolute;
         object-fit: cover;
         width: 100vw;
         height: 100vh;
         top: 0;
         left: 0;
-    }
-    .angles {
-        top:90%;
-        height:30%;
     }
     .autumn {
         z-index:-1;
@@ -543,15 +540,15 @@ body {
                 font-weight: 400;
                 font-style: normal;
                 text-align: center;
-                font-size: 3.5em;
-                line-height: 1em;
+                font-size: 2.8em;
+                line-height: 1.2em;
                 letter-spacing: .04em;
             }
     
             h2 {
                 text-align:left;
                 line-height:1em;
-                font-size:1.5em;
+                font-size:1.1em;
                 letter-spacing:.03em;
                 font-family: ff-meta-web-pro, sans-serif;
                 font-weight: 400;
@@ -560,7 +557,7 @@ body {
             h3 {
                 text-align:left;
                 line-height:3em;
-                font-size:1.3em;
+                font-size:0.9em;
                 letter-spacing:.04em;
                 font-family: ff-meta-correspondence-web-p, sans-serif;
                 font-weight: 400;
@@ -576,24 +573,24 @@ body {
             align-items:center;
       
             .about-text {
-                margin-left:2em;
+                width:85vw;
       
                 h1 {
                     font-family: Impact;
-                    font-size:3em;
+                    font-size:2.8em;
                     letter-spacing:0.1em;
                     font-weight: bold;
                 }
       
                 h2 {
-                    font-size:2em;
-                    letter-spacing:0.2em;
+                    font-size:1.8em;
+                    letter-spacing:0.1em;
                     color:rgb(197, 197, 197);
                     font-family:'M PLUS Rounded 1c', sans-serif;
                 }
       
                 p {
-                    font-size:1.2em;
+                    font-size:1em;
                     letter-spacing:0.05em;
                     line-height:2.5em;
                     color:rgb(175, 175, 175);
@@ -601,19 +598,16 @@ body {
             }
       
             .about-softwares {
-                display:flex;
-                flex-direction:column;
-      
+                width:85vw;
+                
                 h1 {
                   font-family: Impact;
-                  font-size:3.3em;
+                  font-size:2.8em;
                   letter-spacing:0.1em;
                   font-weight: bold;
                   color:rgb(27, 27, 27);
                 }
                 .software-list {
-                    display:flex;
-                    flex-direction:column;
       
                     p {
                         font-family: sans-serif;
@@ -625,7 +619,7 @@ body {
             }
         }
         .secondary {
-            margin-top:35em;
+            margin-top:50%;
         }
         .container {
             height: 100vh;
@@ -639,35 +633,37 @@ body {
             .platform-text {
                 display:flex;
                 flex-direction:column;
+                justify-content:center;
                 width:85vw;
         
             h2 {
                 text-align: center;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 line-height: 0.8em;
+                font-size:1.1em;
             }
         
             p {
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 line-height: 1.5em;
+                font-size:0.9em;
                 color: rgb(230, 223, 223);
                 text-align:left;
             }
         }
 }
 .preview-platform {
+    margin-top:50%;
     width:100vw;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
         iframe {
-            width:65vw;
+            width:95vw;
             height:450px;
             border-radius:3%;
         }
         button {
-            font-size:0.9em;
+            font-size:1em;
             letter-spacing:0.1em;
             color:white;
             background-color: rgba(139, 0, 0, 0.141);
@@ -675,20 +671,20 @@ body {
             border: 1.5px solid maroon;
             padding: 15px;
             border-radius: 5%;
-            margin-top:20px;
+            margin-top:3%;
         }
         .used {
             text-align:center;
 
             h1 {
-                font-size:1.5em;
+                font-size:0.9em;
                 letter-spacing:0.1em;
                 font-family:'M PLUS Rounded 1c', sans-serif;
                 color:rgb(146, 146, 146);
                 font-weight:900;
             }
             p {
-                font-size:0.9em;
+                font-size:0.7em;
                 letter-spacing:0.08em;
                 font-family:'M PLUS Rounded 1c', sans-serif;
                 color:rgb(182, 182, 182);
@@ -696,6 +692,7 @@ body {
         }
 }
 .end {
+    margin-top:53%;
     width:100vw;
     height:100vh;
     display:flex;
@@ -705,7 +702,7 @@ body {
 
     h1 {
         text-align:center;
-        font-size:1.7em;
+        font-size:1.3em;
         font-family:sans-serif;
         letter-spacing:0.1em;
         color:rgb(116, 116, 116);
@@ -713,7 +710,7 @@ body {
 
     p {
         text-align:left;
-        font-size:1.2em;
+        font-size:0.9em;
         font-family:sans-serif;
         letter-spacing:0.1em;
         line-height:2em;
