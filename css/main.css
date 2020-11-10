@@ -14,6 +14,12 @@ body {
           box-sizing: border-box;
 }
 
+#information {
+  display: none;
+  color: black;
+  background-color: black;
+}
+
 @media only screen and (min-width: 769px) {
   .cover {
     display: -webkit-box;
