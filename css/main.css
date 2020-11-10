@@ -96,6 +96,7 @@ body {
     width: 35vw;
   }
   .container .platform-text h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     line-height: 1.5em;
     text-align: left;
   }
@@ -110,19 +111,41 @@ body {
     font-weight: 600;
     color: white;
   }
-  .container .preview-platform {
-    width: 50vw;
-    display: block;
-    position: relative;
-    top: 10%;
-    left: 3%;
+  .preview-platform {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .container .preview-platform iframe {
+  .preview-platform .viewport {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 95vw;
+  }
+  .preview-platform iframe {
     width: 46vw;
     height: 450px;
     border-radius: 3%;
   }
-  .container .preview-platform button {
+  .preview-platform button {
     font-size: 0.9em;
     letter-spacing: 0.1em;
     color: white;
@@ -134,17 +157,17 @@ body {
     margin-left: 50px;
     margin-top: 50px;
   }
-  .container .preview-platform .used {
+  .preview-platform .used {
     text-align: center;
   }
-  .container .preview-platform .used h1 {
+  .preview-platform .used h1 {
     font-size: 1.5em;
     letter-spacing: 0.1em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #929292;
     font-weight: 900;
   }
-  .container .preview-platform .used p {
+  .preview-platform .used p {
     font-size: 0.9em;
     letter-spacing: 0.08em;
     font-family: 'M PLUS Rounded 1c', sans-serif;

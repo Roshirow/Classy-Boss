@@ -81,6 +81,7 @@ body {
         width:35vw;
 
     h2 {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
         line-height:1.5em;
         text-align: left;
     }
@@ -98,12 +99,21 @@ body {
         }
     }
 }
-    .preview-platform {
-        width:50vw;
-        display:block;
-        position:relative;
-        top:10%;
-        left:3%;
+}
+.preview-platform {
+        width:100vw;
+        display:flex;
+        justify-content: flex-end;
+        flex-direction:column;
+
+            .viewport {
+                display:flex;
+                flex-direction:column;
+                justify-content:flex-end;
+                align-items: flex-end;
+                width:95vw;
+            }
+
             iframe {
                 width:46vw;
                 height:450px;
@@ -139,7 +149,6 @@ body {
                 }
             }
     }
-}
 .secondary {
     margin-top:25em;
 }
