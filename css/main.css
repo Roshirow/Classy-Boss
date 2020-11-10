@@ -569,7 +569,7 @@ body {
   .aboutme-page .about-text p {
     font-size: 1em;
     letter-spacing: 0.05em;
-    line-height: 2.5em;
+    line-height: 1.9em;
     color: #afafaf;
   }
   .aboutme-page .about-softwares {
@@ -703,7 +703,7 @@ body {
   }
   .end p {
     text-align: left;
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-family: sans-serif;
     letter-spacing: 0.1em;
     line-height: 2em;
