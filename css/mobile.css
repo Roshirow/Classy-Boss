@@ -55,7 +55,6 @@
   .container {
     width: 100vw;
     height: 100vh;
-    margin-top: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -105,7 +104,6 @@
     color: white;
   }
   .preview-platform {
-    height: 100vh;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -280,7 +278,6 @@
     }
   }
   .aboutme-page {
-    margin-top: 75%;
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -378,7 +375,6 @@
     color: #ebebeb;
   }
   .hatfieldrm {
-    margin-top: 75%;
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -418,7 +414,7 @@
     width: 95vw;
     border-radius: 20%;
   }
-  .hatfieldrm .hrm {
+  .hrm {
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -434,9 +430,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 75%;
   }
-  .hatfieldrm .hrm .rh-logo {
+  .hrm .rh-logo {
     width: 95vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -452,11 +447,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .hatfieldrm .hrm .rh-logo img {
+  .hrm .rh-logo img {
     width: 20vw;
     border-radius: 0;
   }
-  .hatfieldrm .hrm .style-text {
+  .hrm .style-text {
     width: 90vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -472,25 +467,25 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .hatfieldrm .hrm .style-text h1 {
+  .hrm .style-text h1 {
     font-family: Impact;
     font-size: 6vw;
     font-weight: bold;
     color: #1b1b1b;
   }
-  .hatfieldrm .hrm .style-text h2 {
+  .hrm .style-text h2 {
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 5vw;
     color: #818181;
   }
-  .hatfieldrm .hrm .style-text p {
+  .hrm .style-text p {
     font-family: sans-serif;
     font-size: 4vw;
     letter-spacing: 0.04em;
     line-height: 1.3em;
   }
-  .hatfieldrm .analytics {
+  .analytics {
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -506,9 +501,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 75%;
   }
-  .hatfieldrm .analytics .display {
+  .analytics .display {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -523,20 +517,20 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .hatfieldrm .analytics .display h1 {
+  .analytics .display h1 {
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: 6vw;
     color: #4e4e4e;
     font-weight: 800;
   }
-  .hatfieldrm .analytics .display h2 {
+  .analytics .display h2 {
     font-family: sans-serif;
     text-transform: lowercase;
     font-size: 5vw;
     color: #414040;
   }
-  .hatfieldrm .analytics .analysis {
+  .analytics .analysis {
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -552,10 +546,10 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .hatfieldrm .analytics .analysis .lightboxes {
+  .analytics .analysis .lightboxes {
     width: 45vw;
   }
-  .hatfieldrm .analytics .analysis .lightboxes .lightbox {
+  .analytics .analysis .lightboxes .lightbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -576,24 +570,24 @@
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
   }
-  .hatfieldrm .analytics .analysis .lightboxes .lightbox.showLightbox {
+  .analytics .analysis .lightboxes .lightbox.showLightbox {
     opacity: 1;
     z-index: 2;
   }
-  .hatfieldrm .analytics .analysis .lightboxes .lightbox img {
+  .analytics .analysis .lightboxes .lightbox img {
     width: 50vw;
     height: auto;
     border-radius: 3%;
   }
-  .hatfieldrm .analytics .analysis .lightboxes .lightbox a {
+  .analytics .analysis .lightboxes .lightbox a {
     background-color: transparent;
   }
-  .hatfieldrm .analytics .analysis .lightboxes img {
+  .analytics .analysis .lightboxes img {
     width: 18vw;
     margin: 2%;
     border-radius: 4%;
   }
-  .hatfieldrm .analytics .analysis .info {
+  .analytics .analysis .info {
     width: 95vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -609,16 +603,15 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .hatfieldrm .analytics .analysis .info p {
+  .analytics .analysis .info p {
     font-family: sans-serif;
     font-size: 4vw;
     letter-spacing: 0.04em;
     line-height: 1.3em;
   }
-  .hatfieldrm .end {
+  .end {
     width: 100vw;
     height: 100vh;
-    margin-top: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -633,13 +626,13 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .hatfieldrm .end h1 {
+  .end h1 {
     text-align: center;
     font-size: 6vw;
     font-family: sans-serif;
     color: #747474;
   }
-  .hatfieldrm .end p {
+  .end p {
     text-align: left;
     font-size: 3vw;
     letter-spacing: 0.04em;

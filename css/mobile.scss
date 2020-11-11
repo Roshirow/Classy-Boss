@@ -47,7 +47,6 @@
     .container {
         width:100vw;
         height:100vh;
-        margin-top:50%;
         display:flex;
         flex-direction:column;
         align-items: center;
@@ -83,7 +82,6 @@
     }
     }
     .preview-platform {
-            height:100vh;
             width:100vw;
             display:flex;
             justify-content: center;
@@ -277,7 +275,6 @@
         }
       }
       .aboutme-page {
-          margin-top:75%;
           width:100vw;
           height:100vh;
           display:flex;
@@ -346,7 +343,6 @@
           }
       }
       .hatfieldrm {
-            margin-top:75%;
           width:100vw;
           height:100vh;
           display:flex;
@@ -371,6 +367,7 @@
               width:95vw;
               border-radius:20%;
           }
+        }
     .hrm {
             width:100vw;
             height:100vh;
@@ -378,7 +375,6 @@
             flex-direction:column;
             justify-content:center;
             align-items:center;
-            margin-top:75%;
     
             .rh-logo {
                 width:95vw;
@@ -426,7 +422,6 @@
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        margin-top:75%;
     
         .display{
             display:flex;
@@ -510,7 +505,6 @@
     .end {
         width:100vw;
         height:100vh;
-        margin-top:50%;
         display:flex;
         flex-direction:column;
         justify-content: flex-start;
@@ -531,5 +525,4 @@
             font-family:sans-serif;
         }
     }
-}
 }
