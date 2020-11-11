@@ -384,7 +384,7 @@
                 flex-direction:column;
     
               img {
-                width:20vw;
+                width:40vw;
                 border-radius:0;
             }
           }
@@ -398,8 +398,7 @@
               h1 {
                 font-family: Impact;
                 font-size:6vw;
-                font-weight: bold;
-                color:rgb(27, 27, 27);
+                color:rgb(65, 65, 65);
               }
               h2 {
                 font-family: sans-serif;
@@ -452,6 +451,10 @@
     
             .lightboxes {
                 width:45vw;
+
+                a {
+                    color:transparent;
+                }
         
                 .lightbox {
                     display:flex;

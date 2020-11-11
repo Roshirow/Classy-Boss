@@ -448,7 +448,7 @@
             flex-direction: column;
   }
   .hrm .rh-logo img {
-    width: 20vw;
+    width: 40vw;
     border-radius: 0;
   }
   .hrm .style-text {
@@ -470,8 +470,7 @@
   .hrm .style-text h1 {
     font-family: Impact;
     font-size: 6vw;
-    font-weight: bold;
-    color: #1b1b1b;
+    color: #414141;
   }
   .hrm .style-text h2 {
     font-family: sans-serif;
@@ -548,6 +547,9 @@
   }
   .analytics .analysis .lightboxes {
     width: 45vw;
+  }
+  .analytics .analysis .lightboxes a {
+    color: transparent;
   }
   .analytics .analysis .lightboxes .lightbox {
     display: -webkit-box;
