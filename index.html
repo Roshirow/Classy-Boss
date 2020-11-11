@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div class="aboutme-page lax" data-lax-translate-y="0 0, 400 -400">
+<div class="aboutme-page lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 0, 400 1">
     <div class="about-text">
         <h1>ABOUT</h1>
         <h2>Rochell Hatfield</h2>
@@ -82,7 +82,7 @@
     <img class="autumn" src="/img/autumntrees.png" alt="autumn trees with mountains">
     </div>
 
-<div class="preview-platform lax" data-lax-translate-y="0 0, 400 -400">
+<div class="preview-platform lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 0, 400 1">
     <div class="viewport lax" data-lax-preset="zoomIn">
         <iframe src="/social.html"></iframe>
         <br>
@@ -96,7 +96,72 @@
     </div>
 </div>
 
-<div class="end lax" data-lax-translate-y="0 0, 400 -400">
+<div class="hatfieldrm lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 0, 400 1">
+    <h1>Web Design</h1>
+    <div class="desktopview">
+    <img src="/img/desktopview.jpg" alt="desktop view of hatfieldrm site">
+    </div>
+    <div class="background-design">
+        <img src="/img/background-design.png" alt="circle background design">
+    </div>
+</div>
+
+<div class="hrm lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 0, 400 1">
+    <div class="rh-logo lax" data-lax-preset="fadeIn">
+        <img src="/img/RH LOGO OUTLINED-01.png" alt="rh logo design">
+        <img src="/img/color-scheme.png" alt="color schemes">
+    </div>
+    <div class="style-text lax" data-lax-preset="driftLeft">
+        <h1>Stylizing</h1>
+        <h2>Brand Identity</h2>
+        <p>Take this as my awesome-adorkable web design.</p>
+        <p>As I constructed the visual design with color, type, hierarchy, I consider the deliverables to the users. All of my assets are consistent and contribute to a unified experience.</p>
+    </div>
+</div>
+
+<div class="analytics lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 0, 400 1">
+   <div class="display lax" data-lax-preset="fadeIn">
+    <h1>Analytics</h1>
+    <h2>Wireframes</h2>
+   </div>
+
+   <div class="analysis">
+    <div class="lightboxes">
+        <a  id="icon1" href="/img/wireframe.jpg">
+            <img src="/img/wireframe.jpg" alt="">
+        </a>
+        <a  id="icon2" href="/img/wireframe2.jpg">
+            <img src="/img/wireframe2.jpg" alt="">
+        </a>
+        <a  id="icon4" href="/img/heatmap.jpg">
+            <img src="/img/heatmap.jpg" alt="">
+        </a>
+        <a  id="icon3" href="/img/google-analytics.jpg">
+            <img src="/img/google-analytics.jpg" alt="">
+        </a>
+            <div id="lightbox1" class="lightbox">
+                <img src="/img/wireframe.jpg" alt=""> 
+                </div>
+            <div id="lightbox2" class="lightbox">
+                <img src="/img/wireframe2.jpg" alt=""> 
+                </div>
+            <div id="lightbox3" class="lightbox">
+                <img src="/img/google-analytics.jpg" alt=""> 
+                </div>
+            <div id="lightbox4" class="lightbox">
+                <img src="/img/heatmap.jpg" alt=""> 
+                </div>
+</div>
+        <div class="info">
+            <p>Before going into Visual Studio Code to type out the coding, I designed the layout with wireframes using Figma. For a responsive website, the layout consisted of a mobile and desktop version. I took into account the dimension differences- especially with people using Apple, Android, Chrome, etc..</p>
+            <p>As a designer, it is my job to focus on information structures, controlled and uncontrolled metadata, and findability. I re-created the mouse cursor to function with text, images, and on-click images/text but also designed them with the website's aesthetics in mind.</p>
+            <p>The goal is to exercise a user-friendly platform at every step of the way. As one of the tools to access user data, I use Hotjar and Google Analytics that provides information on where exactly people click, hover, and interact with elements on my webpages. This information allows me to gather passive feedback from user's click data and refine my website.</p>
+            <p>I have used an accumulation of Javascript, CSS, and SASS to accent the HTML. In consideration to ongoing coders, I have organized everything into seperate files and labeled everything as I have developed the code.</p>
+        </div>
+   </div>
+</div>
+
+<div class="end lax" data-lax-preset="fadeIn" >
     <h1>User Experience Designer <br><br>Web Designer <br><br> Product Designer <br><br>Visual Deployement <br><br>Prototyping</h1>
     <p>website designed and created by Rochell Hatfield</p>
 </div>
@@ -114,5 +179,86 @@
 <script src="/js/index.js"></script>
 <script src="lib/lax.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
+<script>
+// Show Lightbox
+$('#icon1').click( function( event ){
+
+// Hijack the Click
+event.preventDefault();
+
+console.log('OK');
+// Show Lightbox
+$('#lightbox1').toggleClass('showLightbox');
+
+});
+
+
+$('#lightbox1').click(function(){
+
+$('#lightbox1').toggleClass('showLightbox');
+
+});
+</script>
+<script>
+    // Show Lightbox
+    $('#icon2').click( function( event ){
+    
+    // Hijack the Click
+    event.preventDefault();
+    
+    console.log('OK');
+    // Show Lightbox
+    $('#lightbox2').toggleClass('showLightbox');
+    
+    });
+    
+    
+    $('#lightbox2').click(function(){
+    
+    $('#lightbox2').toggleClass('showLightbox');
+    
+    });
+    </script>
+    <script>
+        // Show Lightbox
+        $('#icon3').click( function( event ){
+        
+        // Hijack the Click
+        event.preventDefault();
+        
+        console.log('OK');
+        // Show Lightbox
+        $('#lightbox3').toggleClass('showLightbox');
+        
+        });
+        
+        
+        $('#lightbox3').click(function(){
+        
+        $('#lightbox3').toggleClass('showLightbox');
+        
+        });
+        </script>
+<script>
+    // Show Lightbox
+    $('#icon4').click( function( event ){
+    
+    // Hijack the Click
+    event.preventDefault();
+    
+    console.log('OK');
+    // Show Lightbox
+    $('#lightbox4').toggleClass('showLightbox');
+    
+    });
+    
+    
+    $('#lightbox4').click(function(){
+    
+    $('#lightbox4').toggleClass('showLightbox');
+    
+    });
+    </script>
 </html>
