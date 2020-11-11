@@ -764,9 +764,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 1.5em;
-    line-height: 1.2em;
-    letter-spacing: .04em;
+    font-size: 5vw;
   }
   .cover .display h2 {
     text-align: left;
@@ -802,6 +800,7 @@ body {
   }
   .aboutme-page .about-text {
     width: 85vw;
+    height: 100vh;
   }
   .aboutme-page .about-text h1 {
     font-family: Impact;
@@ -816,9 +815,8 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .aboutme-page .about-text p {
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    line-height: 1.9em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
     color: #afafaf;
   }
   .aboutme-page .about-softwares {
@@ -833,8 +831,8 @@ body {
   }
   .aboutme-page .about-softwares .software-list p {
     font-family: sans-serif;
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
     color: #5e5e5e;
   }
   .secondary {
@@ -877,8 +875,8 @@ body {
   }
   .container .platform-text p {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    line-height: 1.5em;
-    font-size: 0.9em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
     color: #e6dfdf;
     text-align: left;
   }
@@ -920,8 +918,8 @@ body {
     font-weight: 900;
   }
   .preview-platform .used p {
-    font-size: 0.7em;
-    letter-spacing: 0.08em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #b6b6b6;
   }
@@ -1040,9 +1038,8 @@ body {
   }
   .hrm .style-text p {
     font-family: sans-serif;
-    font-size: 0.9em;
-    letter-spacing: 0.2em;
-    line-height: 3em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
   }
   .analytics {
     width: 100vw;
@@ -1144,9 +1141,8 @@ body {
   }
   .analytics .analysis .info p {
     font-family: sans-serif;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    line-height: 2em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
   }
   .end {
     margin-top: 53%;
@@ -1175,10 +1171,9 @@ body {
   }
   .end p {
     text-align: left;
-    font-size: 0.7em;
+    font-size: 3vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
     font-family: sans-serif;
-    letter-spacing: 0.1em;
-    line-height: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
