@@ -628,6 +628,36 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  * h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 8vw;
+  }
+  * h2 {
+    text-align: left;
+    font-family: ff-meta-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+  }
+  * h3 {
+    text-align: left;
+    font-family: ff-meta-correspondence-web-p, sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 5vw;
+  }
+  * p {
+    font-family: ff-meta-correspondence-web-p, sans-serif;
+    font-size: 4vw;
+    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
+    color: #afafaf;
+  }
+  * img {
+    width: 85vw;
+  }
   .angles {
     position: absolute;
     z-index: -1;
@@ -759,31 +789,6 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .cover .display h1 {
-    font-family: timberline, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 5vw;
-  }
-  .cover .display h2 {
-    text-align: left;
-    line-height: 0.7em;
-    font-size: 0.9em;
-    letter-spacing: .03em;
-    font-family: ff-meta-web-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .cover .display h3 {
-    text-align: left;
-    line-height: 1.3em;
-    font-size: 0.5em;
-    letter-spacing: .03em;
-    font-family: ff-meta-correspondence-web-p, sans-serif;
-    font-weight: 400;
-    font-style: oblique;
-  }
   .aboutme-page {
     width: 100vw;
     height: 100vh;
@@ -797,46 +802,15 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .aboutme-page .about-text {
     width: 85vw;
-    height: 100vh;
-  }
-  .aboutme-page .about-text h1 {
-    font-family: Impact;
-    font-size: 2.8em;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-  }
-  .aboutme-page .about-text h2 {
-    font-size: 1.8em;
-    letter-spacing: 0.1em;
-    color: #c5c5c5;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
-  .aboutme-page .about-text p {
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-    color: #afafaf;
   }
   .aboutme-page .about-softwares {
     width: 85vw;
-  }
-  .aboutme-page .about-softwares h1 {
-    font-family: Impact;
-    font-size: 2.8em;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    color: #1b1b1b;
-  }
-  .aboutme-page .about-softwares .software-list p {
-    font-family: sans-serif;
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-    color: #5e5e5e;
-  }
-  .secondary {
-    margin-top: 50%;
   }
   .container {
     height: 100vh;
@@ -867,21 +841,7 @@ body {
             justify-content: center;
     width: 85vw;
   }
-  .container .platform-text h2 {
-    text-align: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    line-height: 0.8em;
-    font-size: 1.1em;
-  }
-  .container .platform-text p {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-    color: #e6dfdf;
-    text-align: left;
-  }
   .preview-platform {
-    margin-top: 50%;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -910,19 +870,6 @@ body {
   .preview-platform .used {
     text-align: center;
   }
-  .preview-platform .used h1 {
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #929292;
-    font-weight: 900;
-  }
-  .preview-platform .used p {
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #b6b6b6;
-  }
   .hatfieldrm {
     height: 100vh;
     width: 100vw;
@@ -936,20 +883,15 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 30%;
-  }
-  .hatfieldrm h1 {
-    text-align: center;
-    font-size: 3.3em;
-    font-family: sans-serif;
-    width: 30vw;
-    margin-top: 4%;
-    color: #5f5f5f;
   }
   .hatfieldrm .desktopview {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100vw;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -959,56 +901,48 @@ body {
             justify-content: center;
   }
   .hatfieldrm img {
-    width: 50vw;
+    width: 85vw;
     border-radius: 20%;
   }
   .hatfieldrm .background-design {
-    z-index: 2;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 50%;
-    left: 38%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    display: none;
   }
   .hatfieldrm .background-design img {
-    width: 120%;
+    display: none;
   }
-  .hrm {
+  .hatfieldrm .hrm {
     height: 100vh;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-top: 30%;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .hrm .rh-logo {
-    width: 50vw;
-    height: 50vw;
+  .hatfieldrm .hrm .rh-logo {
+    width: 100vw;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .hrm .rh-logo img {
-    width: 20vw;
+  .hatfieldrm .hrm .rh-logo img {
+    width: 10vw;
     border-radius: 0;
   }
-  .hrm .style-text {
+  .hatfieldrm .hrm .style-text {
     width: 30vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1017,31 +951,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .hrm .style-text h1 {
-    font-family: Impact;
-    font-size: 4em;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    color: #1b1b1b;
-  }
-  .hrm .style-text h2 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1em;
-    line-height: 0.6em;
-    letter-spacing: 0.5em;
-    color: #818181;
-  }
-  .hrm .style-text p {
-    font-family: sans-serif;
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-  }
-  .analytics {
+  .hatfieldrm .analytics {
     width: 100vw;
     height: 75vh;
     display: -webkit-box;
@@ -1055,7 +969,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .analytics .display {
+  .hatfieldrm .analytics .display {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1067,41 +981,30 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .analytics .display h1 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 2em;
-    letter-spacing: 0.08em;
-    color: #4e4e4e;
-    font-weight: 800;
-  }
-  .analytics .display h2 {
-    font-family: sans-serif;
-    text-transform: lowercase;
-    font-size: 1.5em;
-    letter-spacing: 0.08em;
-    color: #414040;
-  }
-  .analytics .analysis {
+  .hatfieldrm .analytics .analysis {
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .analytics .analysis .lightboxes {
+  .hatfieldrm .analytics .analysis .lightboxes {
     width: 45vw;
   }
-  .analytics .analysis .lightboxes .lightbox {
+  .hatfieldrm .analytics .analysis .lightboxes .lightbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1119,33 +1022,27 @@ body {
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
   }
-  .analytics .analysis .lightboxes .lightbox.showLightbox {
+  .hatfieldrm .analytics .analysis .lightboxes .lightbox.showLightbox {
     opacity: 1;
     z-index: 2;
   }
-  .analytics .analysis .lightboxes .lightbox img {
+  .hatfieldrm .analytics .analysis .lightboxes .lightbox img {
     width: 50vw;
     height: auto;
     border-radius: 3%;
   }
-  .analytics .analysis .lightboxes .lightbox a {
+  .hatfieldrm .analytics .analysis .lightboxes .lightbox a {
     background-color: transparent;
   }
-  .analytics .analysis .lightboxes img {
+  .hatfieldrm .analytics .analysis .lightboxes img {
     width: 18vw;
     margin: 2%;
     border-radius: 4%;
   }
-  .analytics .analysis .info {
+  .hatfieldrm .analytics .analysis .info {
     width: 45vw;
   }
-  .analytics .analysis .info p {
-    font-family: sans-serif;
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-  }
-  .end {
-    margin-top: 53%;
+  .hatfieldrm .end {
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -1161,19 +1058,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .end h1 {
-    text-align: center;
-    font-size: 1.3em;
-    font-family: sans-serif;
-    letter-spacing: 0.1em;
-    color: #747474;
-  }
-  .end p {
-    text-align: left;
-    font-size: 3vw;
-    line-height: calc(1.5em + (1.5 - 1.2) * ((100vw - 400px)/(1600 - 300)));
-    font-family: sans-serif;
   }
 }
 /*# sourceMappingURL=main.css.map */
