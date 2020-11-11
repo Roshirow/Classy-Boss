@@ -764,14 +764,14 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 2.8em;
+    font-size: 1.5em;
     line-height: 1.2em;
     letter-spacing: .04em;
   }
   .cover .display h2 {
     text-align: left;
-    line-height: 1em;
-    font-size: 1.1em;
+    line-height: 0.7em;
+    font-size: 0.9em;
     letter-spacing: .03em;
     font-family: ff-meta-web-pro, sans-serif;
     font-weight: 400;
@@ -779,9 +779,9 @@ body {
   }
   .cover .display h3 {
     text-align: left;
-    line-height: 3em;
-    font-size: 0.9em;
-    letter-spacing: .04em;
+    line-height: 1.3em;
+    font-size: 0.5em;
+    letter-spacing: .03em;
     font-family: ff-meta-correspondence-web-p, sans-serif;
     font-weight: 400;
     font-style: oblique;
@@ -924,6 +924,229 @@ body {
     letter-spacing: 0.08em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #b6b6b6;
+  }
+  .hatfieldrm {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30%;
+  }
+  .hatfieldrm h1 {
+    text-align: center;
+    font-size: 3.3em;
+    font-family: sans-serif;
+    width: 30vw;
+    margin-top: 4%;
+    color: #5f5f5f;
+  }
+  .hatfieldrm .desktopview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hatfieldrm img {
+    width: 50vw;
+    border-radius: 20%;
+  }
+  .hatfieldrm .background-design {
+    z-index: 2;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 50%;
+    left: 38%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hatfieldrm .background-design img {
+    width: 120%;
+  }
+  .hrm {
+    height: 100vh;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 30%;
+  }
+  .hrm .rh-logo {
+    width: 50vw;
+    height: 50vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hrm .rh-logo img {
+    width: 20vw;
+    border-radius: 0;
+  }
+  .hrm .style-text {
+    width: 30vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .hrm .style-text h1 {
+    font-family: Impact;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: #1b1b1b;
+  }
+  .hrm .style-text h2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 0.6em;
+    letter-spacing: 0.5em;
+    color: #818181;
+  }
+  .hrm .style-text p {
+    font-family: sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+    line-height: 3em;
+  }
+  .analytics {
+    width: 100vw;
+    height: 75vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .analytics .display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .analytics .display h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.08em;
+    color: #4e4e4e;
+    font-weight: 800;
+  }
+  .analytics .display h2 {
+    font-family: sans-serif;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    letter-spacing: 0.08em;
+    color: #414040;
+  }
+  .analytics .analysis {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .analytics .analysis .lightboxes {
+    width: 45vw;
+  }
+  .analytics .analysis .lightboxes .lightbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  .analytics .analysis .lightboxes .lightbox.showLightbox {
+    opacity: 1;
+    z-index: 2;
+  }
+  .analytics .analysis .lightboxes .lightbox img {
+    width: 50vw;
+    height: auto;
+    border-radius: 3%;
+  }
+  .analytics .analysis .lightboxes .lightbox a {
+    background-color: transparent;
+  }
+  .analytics .analysis .lightboxes img {
+    width: 18vw;
+    margin: 2%;
+    border-radius: 4%;
+  }
+  .analytics .analysis .info {
+    width: 45vw;
+  }
+  .analytics .analysis .info p {
+    font-family: sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    line-height: 2em;
   }
   .end {
     margin-top: 53%;
