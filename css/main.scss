@@ -371,12 +371,14 @@ body {
       margin-top:30%;
 
       h1 {
-          text-align:center;
-          font-size:3.3em;
-          font-family:sans-serif;
+          margin-left:5%;
+          text-align:left;
+          font-family: 'M PLUS Rounded 1c', sans-serif;
+          font-size:2vw;
+          line-height:1.5em;
           width:30vw;
           margin-top:4%;
-          color:rgb(95, 95, 95);
+          color:white;
       }
       .desktopview {
           display:flex;

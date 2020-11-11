@@ -338,7 +338,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    margin-top: 10%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
