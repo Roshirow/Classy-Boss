@@ -59,13 +59,13 @@
     
         h2 {
             font-family: 'M PLUS Rounded 1c', sans-serif;
-            line-height:1.5em;
+            font-size:5vw;
             text-align: left;
         }
     
         p {
             font-family: 'M PLUS Rounded 1c', sans-serif;
-            line-height: 1.5em;
+            font-size:4vw;
             color: rgb(230, 223, 223);
             text-align: left;
             
@@ -80,30 +80,30 @@
     .preview-platform {
             width:100vw;
             display:flex;
-            justify-content: flex-end;
+            justify-content: center;
+            align-items:center;
             flex-direction:column;
     
                 .viewport {
                     display:flex;
                     flex-direction:column;
-                    justify-content:flex-end;
-                    align-items: flex-end;
+                    justify-content:center;
+                    align-items:flex-start;
                     width:95vw;
                 }
     
                 iframe {
-                    width:46vw;
-                    height:450px;
+                    width:90vw;
+                    height:350px;
                     border-radius:3%;
                 }
                 button {
-                    font-size:0.9em;
-                    letter-spacing:0.1em;
+                    font-size:3vw;
                     color:white;
                     background-color: rgba(139, 0, 0, 0.141);
                     cursor: pointer;
-                    border: 1.5px solid maroon;
-                    padding: 15px;
+                    border: 1px solid maroon;
+                    padding: 8px;
                     border-radius: 5%;
                     margin-left: 50px;
                     margin-top:50px;
@@ -112,15 +112,13 @@
                     text-align:center;
     
                     h1 {
-                        font-size:1.5em;
-                        letter-spacing:0.1em;
+                        font-size:3vw;
                         font-family:'M PLUS Rounded 1c', sans-serif;
                         color:rgb(146, 146, 146);
                         font-weight:900;
                     }
                     p {
-                        font-size:0.9em;
-                        letter-spacing:0.08em;
+                        font-size:2vw;
                         font-family:'M PLUS Rounded 1c', sans-serif;
                         color:rgb(182, 182, 182);
                     }
@@ -146,10 +144,10 @@
         height:30%;
     }
     .autumn {
+        background-size: cover;
         z-index:-1;
         position:absolute;
         width: 100%;
-        height: 90%;
         opacity:0.4;
     }
     .textbox-intro h3 span {
@@ -274,6 +272,7 @@
         }
       }
       .aboutme-page {
+          margin-top:30%;
           width:100vw;
           display:flex;
           flex-direction:column;
@@ -341,14 +340,16 @@
           }
       }
       .hatfieldrm {
+          margin-top:30%;
           width:100vw;
           display:flex;
           flex-direction:column;
           justify-content: center;
+          align-items:center;
     
           h1 {
               text-align:center;
-              font-size:3.3em;
+              font-size:4vw;
               font-family:sans-serif;
               width:30vw;
               margin-top:4%;
@@ -361,16 +362,17 @@
               justify-content:center;
           }
             img {
-              width:50vw;
+              width:95vw;
               border-radius:20%;
           }
           .background-design{
               z-index:2;
               position:absolute;
-              width:100vw;
-              height:100vh;
+              opacity:0.3;
+              width:160%;
+              height:100%;
               top:50%;
-              left:38%;
+              left:32%;
               transform: translate(-50%, -50%);
     
               img {
@@ -379,15 +381,15 @@
               }
           }
     .hrm {
-            height:100vh;
             width:100vw;
             display:flex;
-            flex-direction:row;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
             margin-top:30%;
     
             .rh-logo {
-                width:50vw;
-                height:50vw;
+                width:95vw;
                 display:flex;
                 align-items:center;
                 justify-content: space-evenly;
@@ -399,67 +401,63 @@
             }
           }
           .style-text {
-              width:30vw;
+              width:90vw;
               display:flex;
               flex-direction:column;
-              align-items:flex-end;
+              align-items:center;
+              justify-content: center;
     
               h1 {
                 font-family: Impact;
-                font-size:4em;
-                letter-spacing:0.1em;
+                font-size:6vw;
                 font-weight: bold;
                 color:rgb(27, 27, 27);
               }
               h2 {
                 font-family: sans-serif;
                 text-transform: uppercase;
-                font-size:1em;
-                line-height:0.6em;
-                letter-spacing:0.5em;
+                font-size:5vw;
                 color:rgb(129, 129, 129);
               }
               p {
                   font-family:sans-serif;
-                  font-size:0.9em;
-                  letter-spacing:0.2em;
-                  line-height:3em;
+                  font-size:4vw;
               }
           }
         }
     .analytics {
         width:100vw;
-        height:75vh;
         display:flex;
-        flex-flow: column;
+        flex-direction: column;
         justify-content: center;
+        align-items:center;
     
         .display{
             display:flex;
             flex-direction:column;
             align-items: center;
+            justify-content:center;
     
             h1 {
                 font-family: sans-serif;
                 text-transform: uppercase;
-                font-size: 2em;
-                letter-spacing:0.08em;
+                font-size: 6vw;
                 color:rgb(78, 78, 78);
                 font-weight: 800;
             }
             h2 {
                 font-family: sans-serif;
                 text-transform: lowercase;
-                font-size: 1.5em;
-                letter-spacing:0.08em;
+                font-size: 5vw;
                 color:rgb(65, 64, 64);
             }
         }
         .analysis {
             width:100vw;
             display:flex;
-            flex-direction:row;
-            justify-content: space-evenly;
+            flex-direction:column;
+            justify-content: center;
+            align-items:center;
     
             .lightboxes {
                 width:45vw;
@@ -467,7 +465,7 @@
                 .lightbox {
                     display:flex;
                     justify-content:center;
-                    align-items:center;
+                    align-items:flex-start;
                     background: rgba(0,0,0,0.8);
                     width:100vw;
                     height:100vh;
@@ -498,13 +496,15 @@
                 }
             }
             .info {
-                width:45vw;
+                width:95vw;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
     
                 p {
                     font-family:sans-serif;
-                  font-size:1em;
-                  letter-spacing:0.05em;
-                  line-height:2em;
+                  font-size:4vw;
                 }
             }
         }
@@ -519,18 +519,15 @@
     
         h1 {
             text-align:center;
-            font-size:1.8em;
+            font-size:6vw;
             font-family:sans-serif;
-            letter-spacing:0.18em;
             color:rgb(116, 116, 116);
         }
     
         p {
             text-align:left;
-            font-size:1.4em;
+            font-size:5vw;
             font-family:sans-serif;
-            letter-spacing:0.1em;
-            line-height:1.8em;
         }
     }
     }
