@@ -53,6 +53,7 @@
   }
   .container {
     width: 100vw;
+    height: 100vh;
     margin-top: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -103,6 +104,7 @@
     color: white;
   }
   .preview-platform {
+    height: 100vh;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -187,6 +189,7 @@
     z-index: -1;
     position: absolute;
     width: 100%;
+    height: 100vh;
     opacity: 0.4;
   }
   .textbox-intro h3 span {
@@ -276,8 +279,9 @@
     }
   }
   .aboutme-page {
-    margin-top: 50%;
+    margin-top: 75%;
     width: 100vw;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -325,7 +329,7 @@
     font-size: 3.5vw;
     letter-spacing: 0.05em;
     line-height: 2.3em;
-    color: #afafaf;
+    color: #dadada;
   }
   .aboutme-page .about-softwares {
     display: -webkit-box;
@@ -336,6 +340,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100vw;
+    height: 100vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -347,8 +352,7 @@
     font-family: Impact;
     font-size: 8vw;
     letter-spacing: 0.1em;
-    font-weight: bold;
-    color: #1b1b1b;
+    color: #818181;
   }
   .aboutme-page .about-softwares .software-list {
     display: -webkit-box;
@@ -370,11 +374,12 @@
     font-family: sans-serif;
     font-size: 3vw;
     letter-spacing: 0.1em;
-    color: #5e5e5e;
+    color: #d1d1d1;
   }
   .hatfieldrm {
-    margin-top: 30%;
+    margin-top: 75%;
     width: 100vw;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -428,6 +433,7 @@
   }
   .hrm {
     width: 100vw;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -499,6 +505,7 @@
   }
   .analytics {
     width: 100vw;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -512,7 +519,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 50%;
+    margin-top: 75%;
   }
   .analytics .display {
     display: -webkit-box;
@@ -623,6 +630,8 @@
   }
   .end {
     width: 100vw;
+    height: 100vh;
+    margin-top: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

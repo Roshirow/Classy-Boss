@@ -45,6 +45,7 @@
         }
     .container {
         width:100vw;
+        height:100vh;
         margin-top:50%;
         display:flex;
         flex-direction:column;
@@ -81,6 +82,7 @@
     }
     }
     .preview-platform {
+            height:100vh;
             width:100vw;
             display:flex;
             justify-content: center;
@@ -149,6 +151,7 @@
         z-index:-1;
         position:absolute;
         width: 100%;
+        height:100vh;
         opacity:0.4;
     }
     .textbox-intro h3 span {
@@ -273,8 +276,9 @@
         }
       }
       .aboutme-page {
-          margin-top:50%;
+          margin-top:75%;
           width:100vw;
+          height:100vh;
           display:flex;
           flex-direction:column;
           align-items: center;
@@ -306,7 +310,7 @@
                   font-size:3.5vw;
                   letter-spacing:0.05em;
                   line-height:2.3em;
-                  color:rgb(175, 175, 175);
+                  color:rgb(218, 218, 218);
               }
           }
     
@@ -314,6 +318,7 @@
               display:flex;
               flex-direction:column;
               width:100vw;
+              height:100vh;
               justify-content: center;
               align-items: center;
     
@@ -321,8 +326,7 @@
                 font-family: Impact;
                 font-size:8vw;
                 letter-spacing:0.1em;
-                font-weight: bold;
-                color:rgb(27, 27, 27);
+                color:rgb(129, 129, 129);
               }
               .software-list {
                   display:flex;
@@ -335,14 +339,15 @@
                       font-family: sans-serif;
                       font-size:3vw;
                       letter-spacing:0.1em;
-                      color:rgb(94, 94, 94);
+                      color:rgb(209, 209, 209);
                   }
               }
           }
       }
       .hatfieldrm {
-          margin-top:30%;
+            margin-top:75%;
           width:100vw;
+          height:100vh;
           display:flex;
           flex-direction:column;
           justify-content: center;
@@ -382,6 +387,7 @@
           }
     .hrm {
             width:100vw;
+            height:100vh;
             display:flex;
             flex-direction:column;
             justify-content:center;
@@ -429,11 +435,12 @@
         }
     .analytics {
         width:100vw;
+        height:100vh;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        margin-top:50%;
+        margin-top:75%;
     
         .display{
             display:flex;
@@ -516,6 +523,8 @@
         }
     .end {
         width:100vw;
+        height:100vh;
+        margin-top:50%;
         display:flex;
         flex-direction:column;
         justify-content: flex-start;
