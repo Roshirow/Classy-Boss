@@ -119,6 +119,23 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .preview-platform .text {
+    width: 75vw;
+  }
+  .preview-platform .text h1 {
+    width: 75vw;
+    margin-top: 5%;
+    font-size: 4vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  .preview-platform .text h2 {
+    width: 40vw;
+    font-size: 3vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #ececec;
+  }
   .preview-platform .viewport {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -146,9 +163,11 @@
     border: 1px solid maroon;
     padding: 8px;
     border-radius: 5%;
+    margin-top: 5%;
   }
   .preview-platform .used {
     text-align: center;
+    margin-top: 8%;
   }
   .preview-platform .used h1 {
     font-size: 3vw;
@@ -329,6 +348,32 @@
     line-height: 2.3em;
     color: #e9e9e9;
   }
+  .aboutme-page .me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+  }
+  .aboutme-page .me img {
+    width: 25vw;
+    border-radius: 12%;
+  }
+  .aboutme-page .me p {
+    font-size: 2.4vw;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #777777;
+  }
   .aboutme-page .about-softwares {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -338,7 +383,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100vw;
-    margin-top: 10%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -373,6 +417,35 @@
     font-size: 3vw;
     letter-spacing: 0.1em;
     color: #ebebeb;
+  }
+  .brief {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .brief h1 {
+    font-size: 5vw;
+    letter-spacing: 0.04em;
+    font-family: sans-serif;
+    margin-left: 3%;
+  }
+  .brief p {
+    font-size: 4vw;
+    letter-spacing: 0.04em;
+    line-height: 1.3em;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: #c9c9c9;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .hatfieldrm {
     width: 100vw;
@@ -612,6 +685,72 @@
     letter-spacing: 0.04em;
     line-height: 1.3em;
   }
+  .process {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50%;
+  }
+  .process .col1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+  }
+  .process .col1 p {
+    font-size: 4.2vw;
+    letter-spacing: 0.05em;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    width: 95vw;
+    margin-right: 3%;
+    margin-left: 3%;
+    color: #e6e6e6;
+  }
+  .process .col1 img {
+    width: 75vw;
+    border-radius: 8%;
+  }
+  .process .layout {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .process .layout img {
+    width: 75vw;
+  }
   .end {
     width: 100vw;
     height: 100vh;
@@ -642,6 +781,43 @@
     letter-spacing: 0.04em;
     line-height: 1.3em;
     font-family: sans-serif;
+  }
+  .footnote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 5%;
+  }
+  .footnote h1 {
+    font-size: 8vw;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: impact;
+  }
+  .footnote h2 {
+    font-size: 3vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #d8d8d8;
+  }
+  .footnote p {
+    font-size: 3vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #cacaca;
+  }
+  .footnote .link a {
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: sans-serif;
+    letter-spacing: 0.05em;
+    color: #b90000;
   }
 }
 /*# sourceMappingURL=mobile.css.map */
