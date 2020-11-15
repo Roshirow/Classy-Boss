@@ -714,5 +714,14 @@ body {
             color:rgb(185, 0, 0);
         }
     }
+    .stay-classy {
+        width:100vw;
+        display:flex;
+        justify-content:center;
+
+        img {
+            width:12vw;
+        }
+    }
 }
 }

@@ -817,5 +817,17 @@ body {
     letter-spacing: 0.05em;
     color: #b90000;
   }
+  .footnote .stay-classy {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footnote .stay-classy img {
+    width: 12vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */
