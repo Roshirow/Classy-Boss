@@ -73,7 +73,7 @@ body {
     font-weight: 400;
     font-style: oblique;
   }
-  .container {
+  .social-platform {
     padding: 2em;
     height: 100vh;
     width: 100vw;
@@ -84,7 +84,15 @@ body {
         flex-wrap: wrap;
     margin-right: 7%;
   }
-  .container .platform-text {
+  .social-platform .block {
+    z-index: -2;
+    position: absolute;
+    background-color: rgba(105, 0, 0, 0.623);
+    height: 95vh;
+    width: 70vw;
+    left: -20vw;
+  }
+  .social-platform .platform-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -95,18 +103,18 @@ body {
     margin-left: 6%;
     width: 35vw;
   }
-  .container .platform-text h2 {
+  .social-platform .platform-text h2 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     line-height: 1.5em;
     text-align: left;
   }
-  .container .platform-text p {
+  .social-platform .platform-text p {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     line-height: 1.5em;
     color: #e6dfdf;
     text-align: left;
   }
-  .container .platform-text p strong {
+  .social-platform .platform-text p strong {
     font-size: 1.1em;
     font-weight: 600;
     color: white;
@@ -454,6 +462,13 @@ body {
     margin-left: 6%;
     color: #c9c9c9;
   }
+  .brief .line {
+    width: 50vw;
+    height: 0.1vh;
+    background-color: #f0f0f0;
+    margin-left: 25vw;
+    margin-top: 20vh;
+  }
   .hatfieldrm {
     height: 100vh;
     width: 100vw;
@@ -626,23 +641,23 @@ body {
   }
   .analytics .analysis .lightboxes {
     width: 45vw;
-  }
-  .analytics .analysis .lightboxes .lightbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .analytics .analysis .lightboxes .lightbox {
     background: rgba(0, 0, 0, 0.8);
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top: 0;
-    left: 0;
+    left: 25%;
     z-index: -2;
     opacity: 0;
     -webkit-transition: opacity 1s;
@@ -717,7 +732,7 @@ body {
     margin-left: 3%;
   }
   .process .col1 img {
-    width: 20vw;
+    width: 40vw;
     border-radius: 8%;
   }
   .process .layout {

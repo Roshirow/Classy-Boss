@@ -44,7 +44,7 @@
             }
         }
     }
-    .container {
+    .social-platform {
         width:100vw;
         display:flex;
         flex-direction:column;
@@ -88,7 +88,7 @@
             h1 {
                 width:75vw;
                 margin-top:5%;
-                font-size:4vw;
+                font-size:6vw;
                 letter-spacing:0.05em;
                 font-family:'M PLUS Rounded 1c', sans-serif;
             }
@@ -125,11 +125,12 @@
         }
         .used {
             text-align:center;
+            margin-top:5%;
     
             h1 {
                 font-size:3vw;
                 font-family:'M PLUS Rounded 1c', sans-serif;
-                color:rgb(146, 146, 146);
+                color:rgb(216, 216, 216);
                 font-weight:900;
             }
             p {
@@ -137,7 +138,7 @@
                 letter-spacing:0.04em;
                 line-height:1.3em;
                 font-family:'M PLUS Rounded 1c', sans-serif;
-                color:rgb(182, 182, 182);
+                color:rgb(218, 218, 218);
             }
         }
     }
@@ -337,7 +338,7 @@
                 font-size:2.4vw;
                 letter-spacing:0.05em;
                 font-family:sans-serif;
-                color:rgb(119, 119, 119);
+                color:rgb(194, 194, 194);
             }
         }
     
@@ -392,6 +393,13 @@
             color:rgb(201, 201, 201);
             font-family:'M PLUS Rounded 1c', sans-serif;
         }
+        .line {
+            width:40vw;
+            height:0.05vh;
+            background-color:rgb(241, 241, 241);
+            margin-left:25vw;
+            margin-top:10vh;
+        }
     }
     .hatfieldrm {
         width:100vw;
@@ -402,10 +410,15 @@
     
         h1 {
             text-align:center;
-            font-size:5vw;
+            font-size:6vw;
             font-family:'M PLUS Rounded 1c', sans-serif;
             width:100vw;
             color:rgb(255, 255, 255);
+        }
+        p {
+            font-size:3vw;
+            letter-spacing:0.05em;
+            color:rgb(204, 204, 204);
         }
         .desktopview {
             display:flex;

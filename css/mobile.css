@@ -52,7 +52,7 @@
     font-weight: 400;
     font-style: oblique;
   }
-  .container {
+  .social-platform {
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -68,7 +68,7 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .container .platform-text {
+  .social-platform .platform-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -84,12 +84,12 @@
             align-items: center;
     width: 85vw;
   }
-  .container .platform-text h2 {
+  .social-platform .platform-text h2 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 5vw;
     text-align: center;
   }
-  .container .platform-text p {
+  .social-platform .platform-text p {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 4vw;
     letter-spacing: 0.04em;
@@ -120,7 +120,7 @@
   .preview-platform .text h1 {
     width: 75vw;
     margin-top: 5%;
-    font-size: 4vw;
+    font-size: 6vw;
     letter-spacing: 0.05em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
@@ -162,11 +162,12 @@
   }
   .preview-platform .used {
     text-align: center;
+    margin-top: 5%;
   }
   .preview-platform .used h1 {
     font-size: 3vw;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #929292;
+    color: #d8d8d8;
     font-weight: 900;
   }
   .preview-platform .used p {
@@ -174,7 +175,7 @@
     letter-spacing: 0.04em;
     line-height: 1.3em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    color: #b6b6b6;
+    color: #dadada;
   }
   .angles {
     position: absolute;
@@ -362,7 +363,7 @@
     font-size: 2.4vw;
     letter-spacing: 0.05em;
     font-family: sans-serif;
-    color: #777777;
+    color: #c2c2c2;
   }
   .aboutme-page .about-softwares {
     display: -webkit-box;
@@ -437,6 +438,13 @@
     color: #c9c9c9;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
+  .brief .line {
+    width: 40vw;
+    height: 0.05vh;
+    background-color: #f1f1f1;
+    margin-left: 25vw;
+    margin-top: 10vh;
+  }
   .hatfieldrm {
     width: 100vw;
     height: 100vh;
@@ -453,10 +461,15 @@
   }
   .hatfieldrm h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 6vw;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     width: 100vw;
     color: white;
+  }
+  .hatfieldrm p {
+    font-size: 3vw;
+    letter-spacing: 0.05em;
+    color: #cccccc;
   }
   .hatfieldrm .desktopview {
     display: -webkit-box;

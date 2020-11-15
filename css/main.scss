@@ -66,13 +66,22 @@ body {
         }
     }
     }
-.container {
+.social-platform {
     padding: 2em;
     height: 100vh;
     width:100vw;
     display:flex;
     flex-wrap: wrap;
     margin-right:7%;
+
+    .block {
+        z-index:-2;
+        position:absolute;
+        background-color:rgba(105, 0, 0, 0.623);
+        height:95vh;
+        width:70vw;
+        left:-20vw;
+    }
 
     .platform-text {
         display:flex;
@@ -428,6 +437,13 @@ body {
           margin-left:6%;
           color:rgb(201, 201, 201);
       }
+      .line {
+          width:50vw;
+          height:0.1vh;
+          background-color:rgb(240, 240, 240);
+          margin-left:25vw;
+          margin-top:20vh;
+      }
   }
   .hatfieldrm {
       height:100vh;
@@ -551,17 +567,17 @@ body {
 
         .lightboxes {
             width:45vw;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            flex-wrap:wrap;
     
             .lightbox {
-                display:flex;
-                justify-content:center;
-                align-items:center;
                 background: rgba(0,0,0,0.8);
                 width:100vw;
                 height:100vh;
                 position:absolute;
-                top:0;
-                left:0;
+                left:25%;
                 z-index:-2;
                 opacity:0;
                 transition:opacity 1s;
@@ -622,7 +638,7 @@ body {
             margin-left:3%;
         }
         img {
-            width:20vw;
+            width:40vw;
             border-radius:8%;
         }
     }
