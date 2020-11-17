@@ -439,9 +439,9 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .brief .line {
-    width: 40vw;
+    width: 50vw;
     height: 0.05vh;
-    background-color: #f1f1f1;
+    background-color: #e0e0e0;
     margin-left: 25vw;
     margin-top: 10vh;
   }
@@ -733,6 +733,86 @@
   .process .layout img {
     width: 75vw;
   }
+  .preview-hatfieldrm {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .preview-hatfieldrm .text {
+    width: 75vw;
+  }
+  .preview-hatfieldrm .text h1 {
+    width: 75vw;
+    margin-top: 5%;
+    font-size: 6vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  .preview-hatfieldrm .text h2 {
+    width: 40vw;
+    font-size: 3vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #ececec;
+  }
+  .preview-hatfieldrm .viewport2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 95vw;
+  }
+  .preview-hatfieldrm .viewport2 iframe {
+    display: none;
+  }
+  .preview-hatfieldrm .viewport2 button {
+    font-size: 3vw;
+    color: white;
+    background-color: rgba(139, 0, 0, 0.141);
+    cursor: pointer;
+    border: 1px solid maroon;
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: 5%;
+  }
+  .preview-hatfieldrm .used2 {
+    text-align: center;
+    margin-top: 15%;
+  }
+  .preview-hatfieldrm .used2 h1 {
+    font-size: 4vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #d8d8d8;
+    font-weight: 900;
+  }
+  .preview-hatfieldrm .used2 p {
+    font-size: 2.2vw;
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #dfdfdf;
+  }
   .end {
     width: 100vw;
     height: 100vh;
@@ -800,14 +880,38 @@
     letter-spacing: 0.05em;
     color: #b90000;
   }
-  .footnote .stay-classy {
+  .footnote .position {
     width: 100vw;
+    height: 20vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footnote .position h3 {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    color: #c4c4c4;
+  }
+  .footnote .stay-classy {
+    width: 100vw;
+    height: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .footnote .stay-classy img {
     width: 14vw;

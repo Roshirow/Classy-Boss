@@ -653,6 +653,84 @@ body {
         }
     }
 }
+.preview-hatfieldrm {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    align-items:center;
+
+        .text {
+            height:50vh;
+
+            h1 {
+                width:40vw;
+                font-size:3vw;
+                letter-spacing:0.05em;
+                font-family:'M PLUS Rounded 1c', sans-serif;
+            }
+
+            h2 {
+                width:40vw;
+                font-size:1.8vw;
+                letter-spacing:0.05em;
+                font-family:'M PLUS Rounded 1c', sans-serif;
+                color:rgb(236, 236, 236);
+            }
+        }
+
+        .viewport2 {
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-end;
+            align-items: flex-start;
+            width:50vw;
+            height:80vh;
+        }
+
+        iframe {
+            width:46vw;
+            height:450px;
+            border-radius:3%;
+        }
+        button {
+            font-size:0.9em;
+            letter-spacing:0.1em;
+            color:white;
+            background-color: rgba(139, 0, 0, 0.141);
+            cursor: pointer;
+            border: 1.5px solid maroon;
+            padding: 15px;
+            border-radius: 5%;
+            margin-left: 50px;
+            margin-top:50px;
+        }
+        .used2 {
+            width:95vw;
+            height:15vh;
+            margin-top:8%;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+
+            h1 {
+                font-size:1.5em;
+                letter-spacing:0.1em;
+                font-family:'M PLUS Rounded 1c', sans-serif;
+                color:rgb(146, 146, 146);
+                font-weight:900;
+            }
+            p {
+                font-size:0.9em;
+                letter-spacing:0.08em;
+                line-height:1.6em;
+                font-family:'M PLUS Rounded 1c', sans-serif;
+                color:rgb(216, 216, 216);
+            }
+        }
+}
 .end {
     width:100vw;
     height:100vh;
@@ -714,10 +792,27 @@ body {
             color:rgb(185, 0, 0);
         }
     }
-    .stay-classy {
+    .position {
         width:100vw;
+        height:20vh;
         display:flex;
         justify-content:center;
+        align-items:center;
+
+        h3 {
+            font-size:1.5vw;
+            font-family:sans-serif;
+            font-weight: 100;
+            letter-spacing:0.04em;
+            color:rgb(196, 196, 196);
+        }
+    }
+    .stay-classy {
+        width:100vw;
+        height:20vh;
+        display:flex;
+        justify-content:center;
+        align-items:flex-end;
 
         img {
             width:12vw;

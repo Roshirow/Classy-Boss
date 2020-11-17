@@ -748,6 +748,103 @@ body {
   .process .layout img {
     width: 18vw;
   }
+  .preview-hatfieldrm {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .preview-hatfieldrm .text {
+    height: 50vh;
+  }
+  .preview-hatfieldrm .text h1 {
+    width: 40vw;
+    font-size: 3vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  .preview-hatfieldrm .text h2 {
+    width: 40vw;
+    font-size: 1.8vw;
+    letter-spacing: 0.05em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #ececec;
+  }
+  .preview-hatfieldrm .viewport2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 50vw;
+    height: 80vh;
+  }
+  .preview-hatfieldrm iframe {
+    width: 46vw;
+    height: 450px;
+    border-radius: 3%;
+  }
+  .preview-hatfieldrm button {
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    color: white;
+    background-color: rgba(139, 0, 0, 0.141);
+    cursor: pointer;
+    border: 1.5px solid maroon;
+    padding: 15px;
+    border-radius: 5%;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .preview-hatfieldrm .used2 {
+    width: 95vw;
+    height: 15vh;
+    margin-top: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .preview-hatfieldrm .used2 h1 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #929292;
+    font-weight: 900;
+  }
+  .preview-hatfieldrm .used2 p {
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+    line-height: 1.6em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #d8d8d8;
+  }
   .end {
     width: 100vw;
     height: 100vh;
@@ -817,14 +914,38 @@ body {
     letter-spacing: 0.05em;
     color: #b90000;
   }
-  .footnote .stay-classy {
+  .footnote .position {
     width: 100vw;
+    height: 20vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footnote .position h3 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    color: #c4c4c4;
+  }
+  .footnote .stay-classy {
+    width: 100vw;
+    height: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .footnote .stay-classy img {
     width: 12vw;
