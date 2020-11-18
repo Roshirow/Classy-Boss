@@ -455,7 +455,8 @@ body {
     margin-left: 3%;
   }
   .brief h3 {
-    font-size: 3vw;
+    font-size: 2.5vw;
+    line-height: 7vh;
     letter-spacing: 0.05em;
     margin-right: 6%;
     margin-left: 6%;
