@@ -454,20 +454,46 @@ body {
     font-family: sans-serif;
     margin-left: 3%;
   }
-  .brief p {
+  .brief h3 {
     font-size: 3vw;
     letter-spacing: 0.05em;
-    line-height: 7vh;
     margin-right: 6%;
     margin-left: 6%;
     color: #c9c9c9;
   }
+  .brief h2 {
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    font-family: impact;
+    font-weight: bold;
+    text-align: center;
+    color: #1b1b1b;
+  }
+  .brief .methods {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100vw;
+  }
+  .brief .methods p {
+    font-size: 1em;
+    letter-spacing: 0.08em;
+    font-family: sans-serif;
+    color: #5e5e5e;
+  }
   .brief .line {
     width: 50vw;
     height: 0.1vh;
-    background-color: #f0f0f0;
+    background-color: #8d8c8c;
     margin-left: 25vw;
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
   .hatfieldrm {
     height: 100vh;
