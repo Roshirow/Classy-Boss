@@ -361,10 +361,9 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .aboutme-page .about-text p {
-    font-size: 1.3em;
+    font-size: 1.1em;
     letter-spacing: 0.05em;
-    line-height: 2.5em;
-    margin-top: 8%;
+    line-height: 2em;
     color: #afafaf;
   }
   .aboutme-page .me {
@@ -393,49 +392,6 @@ body {
     letter-spacing: 0.05em;
     font-family: sans-serif;
     color: #777777;
-  }
-  .aboutme-page .about-softwares {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 30vh;
-    width: 100vw;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .aboutme-page .about-softwares h1 {
-    font-family: Impact;
-    font-size: 4em;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    color: #1b1b1b;
-  }
-  .aboutme-page .about-softwares .software-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 100vw;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .aboutme-page .about-softwares .software-list p {
-    font-family: sans-serif;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    color: #5e5e5e;
   }
   .brief {
     display: -webkit-box;
@@ -489,12 +445,48 @@ body {
     font-family: sans-serif;
     color: #5e5e5e;
   }
-  .brief .line {
-    width: 50vw;
-    height: 0.1vh;
-    background-color: #8d8c8c;
-    margin-left: 25vw;
-    margin-top: 10vh;
+  .brief .about-softwares {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 30vh;
+    width: 100vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .brief .about-softwares h1 {
+    font-family: Impact;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    color: #1b1b1b;
+  }
+  .brief .about-softwares .software-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100vw;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .brief .about-softwares .software-list p {
+    font-family: sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: #5e5e5e;
   }
   .hatfieldrm {
     height: 100vh;
@@ -872,6 +864,124 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #d8d8d8;
   }
+  .results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100vw;
+  }
+  .results .heading {
+    width: 65vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .results .heading h1 {
+    font-size: 5vw;
+    letter-spacing: 0.03em;
+    line-height: 1vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  .results .heading h2 {
+    font-size: 2.8vw;
+    line-height: 1vh;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 100;
+  }
+  .results #typography {
+    width: 15%;
+  }
+  .results .media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20vw;
+  }
+  .results .media h3 {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #868686;
+  }
+  .results .media p {
+    font-size: 1.4vw;
+    color: #868686;
+  }
+  .results .providing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 25vw;
+    height: 30vh;
+  }
+  .results .providing h3 {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 1vh;
+    color: #868686;
+  }
+  .results .providing p {
+    font-size: 1.4vw;
+    line-height: 3vh;
+    color: #868686;
+  }
+  .results #online {
+    width: 20%;
+    border-radius: 8%;
+  }
+  .results video {
+    border: 1px solid rgba(73, 0, 0, 0.651);
+    width: 30%;
+  }
+  .results #colors {
+    width: 75%;
+  }
+  .results .icons {
+    width: 15vw;
+  }
+  .results .icons ul li {
+    list-style: none;
+    list-style-position: outside;
+  }
+  .results .icons ul li img {
+    width: 20%;
+  }
   .end {
     width: 100vw;
     height: 100vh;
@@ -941,6 +1051,12 @@ body {
     letter-spacing: 0.05em;
     color: #b90000;
   }
+  .footnote .link a img {
+    width: 5%;
+  }
+  .footnote .link a p {
+    font-size: 2vw;
+  }
   .footnote .position {
     width: 100vw;
     height: 20vh;
@@ -967,12 +1083,16 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footnote .stay-classy img {
     width: 12vw;
