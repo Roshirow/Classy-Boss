@@ -133,6 +133,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 10%;
   }
   .preview-platform .text {
     height: 50vh;
@@ -231,13 +232,6 @@ body {
     top: 90%;
     height: 30%;
   }
-  .autumn {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 90%;
-    opacity: 0.4;
-  }
   .textbox-intro h3 span {
     position: absolute;
     opacity: 0;
@@ -332,6 +326,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-top: 10%;
   }
   .aboutme-page .about-text {
     display: -webkit-box;
@@ -365,6 +360,7 @@ body {
     letter-spacing: 0.05em;
     line-height: 2em;
     color: #afafaf;
+    font-family: sans-serif;
   }
   .aboutme-page .me {
     display: -webkit-box;
@@ -403,6 +399,7 @@ body {
             flex-direction: column;
     width: 100vw;
     height: 100vh;
+    margin-top: 10%;
   }
   .brief h1 {
     font-size: 5vw;
@@ -412,11 +409,12 @@ body {
   }
   .brief h3 {
     font-size: 2.5vw;
-    line-height: 7vh;
+    line-height: 6vh;
     letter-spacing: 0.05em;
     margin-right: 6%;
     margin-left: 6%;
     color: #c9c9c9;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .brief h2 {
     font-size: 4em;
@@ -501,7 +499,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 30%;
+    margin-top: 10%;
   }
   .hatfieldrm h1 {
     margin-left: 5%;
@@ -547,7 +545,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 30%;
+    margin-top: 10%;
   }
   .hrm .rh-logo {
     width: 50vw;
@@ -617,6 +615,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 10%;
   }
   .analytics .display {
     display: -webkit-box;
@@ -657,6 +656,7 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    margin-top: 10%;
   }
   .analytics .analysis .lightboxes {
     width: 45vw;
@@ -724,6 +724,7 @@ body {
             justify-content: center;
     width: 100vw;
     height: 100vh;
+    margin-top: 10%;
   }
   .process .col1 {
     display: -webkit-box;
@@ -781,6 +782,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 10%;
   }
   .preview-hatfieldrm .text {
     height: 50vh;
@@ -877,6 +879,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 100vw;
+    margin-top: 15%;
   }
   .results .heading {
     width: 65vw;
@@ -970,6 +973,7 @@ body {
     width: 30%;
   }
   .results #colors {
+    margin-top: 10%;
     width: 75%;
   }
   .results .icons {
@@ -998,6 +1002,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 10%;
   }
   .end h1 {
     text-align: center;
@@ -1025,6 +1030,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin-left: 5%;
+    margin-top: 10%;
   }
   .footnote h1 {
     font-size: 5vw;
