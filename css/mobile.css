@@ -54,6 +54,7 @@
   }
   .social-platform {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -99,6 +100,7 @@
   }
   .preview-platform {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -193,14 +195,6 @@
     top: 0;
     left: 0;
   }
-  .autumn {
-    background-size: cover;
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.4;
-  }
   .textbox-intro h3 span {
     position: absolute;
     opacity: 0;
@@ -289,6 +283,7 @@
   }
   .aboutme-page {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -377,6 +372,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     width: 100vw;
+    margin-top: 10%;
   }
   .brief h1 {
     font-size: 5vw;
@@ -476,6 +472,7 @@
   }
   .hatfieldrm {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -517,6 +514,7 @@
   }
   .hrm {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -580,6 +578,7 @@
   }
   .analytics {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -714,6 +713,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     width: 100vw;
+    margin-top: 10%;
   }
   .process .col1 {
     display: -webkit-box;
@@ -762,6 +762,7 @@
   }
   .preview-hatfieldrm {
     width: 100vw;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -852,6 +853,7 @@
         -ms-flex-align: center;
             align-items: center;
     width: 100vw;
+    margin-top: 10%;
   }
   .results .heading {
     width: 65vw;
@@ -962,6 +964,7 @@
   .end {
     width: 100vw;
     height: 100vh;
+    margin-top: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1000,6 +1003,7 @@
     width: 100vw;
     height: 100vh;
     margin-left: 5%;
+    margin-top: 10%;
   }
   .footnote h1 {
     font-size: 8vw;
