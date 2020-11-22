@@ -26,6 +26,6 @@ window.addEventListener('scroll', () => {
     cover.style.opacity = - scroll / (bg_height / 2) + 1;
     angles.style.height = `${scroll * 0.5 + 300}px`;
 
-    abouttext.style.transform = `translateY(${scroll / (aboutme_height + aboutmeY.top) * 50 - 50}px)`;
+    abouttext.style.transform = `translateY(${scroll / (aboutme_height + aboutmeY.top) * -50 + 50}px)`;
     me.style.transform = `translateY(${scroll / (aboutme_height + aboutmeY.top) * -50 + 50}px)`;
 }) 
