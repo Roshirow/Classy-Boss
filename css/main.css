@@ -231,6 +231,8 @@ body {
   .angles {
     top: 90%;
     height: 30%;
+    position: absolute;
+    z-index: 20;
   }
   .textbox-intro h3 span {
     position: absolute;
@@ -320,13 +322,19 @@ body {
   }
   .aboutme-page {
     width: 100vw;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    min-height: 100vh;
+    position: relative;
     margin-top: 10%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .aboutme-page .about-text {
     display: -webkit-box;
@@ -338,10 +346,13 @@ body {
             flex-direction: column;
     margin-left: 2em;
     height: 50vh;
+    min-height: 100vh;
     width: 45vw;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
   }
   .aboutme-page .about-text h1 {
     font-family: Impact;
@@ -378,6 +389,8 @@ body {
             align-items: center;
     margin-left: 2%;
     width: 50vw;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   }
   .aboutme-page .me img {
     width: 18vw;
@@ -389,6 +402,9 @@ body {
     font-family: sans-serif;
     color: #777777;
   }
+  .aboutme-page .opacity {
+    opacity: 0;
+  }
   .brief {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -399,7 +415,7 @@ body {
             flex-direction: column;
     width: 100vw;
     height: 100vh;
-    margin-top: 10%;
+    margin-top: 30%;
   }
   .brief h1 {
     font-size: 5vw;

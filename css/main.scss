@@ -203,6 +203,8 @@ body {
 .angles {
     top:90%;
     height:30%;
+    position:absolute;
+    z-index:20;
 }
 .textbox-intro h3 span {
     position: absolute;
@@ -327,18 +329,23 @@ body {
   }
   .aboutme-page {
       width:100vw;
-      height:100vh;
-      display:flex;
-      flex-wrap: wrap;
+      min-height:100vh;
+      position:relative;
       margin-top:10%;
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      align-items:center;
+      justify-content:center;
 
       .about-text {
           display:flex;
           flex-direction:column;
           margin-left:2em;
           height:50vh;
+          min-height:100vh;
           width:45vw;
           justify-content: flex-start;
+          transform:translateY(-50px);
 
           h1 {
               font-family: Impact;
@@ -369,6 +376,7 @@ body {
           align-items: center;
           margin-left:2%;
           width:50vw;
+          transform:translateY(50px);
 
           img {
               width:18vw;
@@ -381,13 +389,16 @@ body {
               color:rgb(119, 119, 119);
           }
       }
+      .opacity {
+          opacity:0;
+      }
   }
   .brief {
       display:flex;
       flex-direction:column;
       width:100vw;
       height:100vh;
-      margin-top:10%;
+      margin-top:30%;
 
       h1 {
           font-size:5vw;
