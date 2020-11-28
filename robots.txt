@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images/
+Allow: /images/Classy Boss Design typography_gold.png
+Disallow:/css/
+Disallow:/js/
