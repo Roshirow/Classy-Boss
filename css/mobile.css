@@ -1063,6 +1063,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: absolute;
   }
   .end h1 {
     text-align: center;
@@ -1141,7 +1142,8 @@
     width: 100vw;
     height: 100vh;
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 120vh;
+    position: absolute;
   }
   .footnote h1 {
     font-size: 8vw;
