@@ -20,6 +20,39 @@ body {
     opacity:0;
 }
 
+.container-button {
+    display:flex;
+    width: 100vw;
+    justify-content: end;
+    z-index:100;
+    position: absolute;
+
+    .portfolio-button {
+        height:200vh;
+        width:150px;
+    
+        a {
+        position: sticky;
+        -webkit-position: sticky;
+        top:0;
+        border:1px solid rgba(207, 206, 206, 0.76);
+        padding: 0.5rem;
+        background: none;
+        border-radius: 8px;
+        font-size:1.1em;
+        transition: .9s;
+        text-decoration: none;
+        font-family: ff-meta-web-pro, sans-serif;
+        color:rgba(207, 206, 206, 0.76);
+        letter-spacing: 0.1em;
+        }
+
+        a:hover {
+            box-shadow: 0 10px 100px -20px white;
+        }
+    }
+}
+
 @media only screen and (min-width: 769px) {
 .cover {
     display:flex;
@@ -462,6 +495,29 @@ body {
         }
     }
   }
+  .design-strategy {
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:160vh;
+    margin-top:10%;
+
+    h1 {
+        font-size:5vw;
+        letter-spacing:0.04em;
+        font-family: sans-serif;
+        margin-left:3%;
+    }
+    p {
+        font-size:1.1em;
+        line-height:2em;
+        letter-spacing:0.05em;
+        margin-right:6%;
+        margin-left:6%;
+        color:rgb(201, 201, 201);
+        font-family:'M PLUS Rounded 1c', sans-serif;
+    }
+  }
   .hatfieldrm {
       height:100vh;
       width:100vw;
@@ -873,6 +929,27 @@ body {
         line-height:1.8em;
         color:rgb(207, 207, 207);
     }
+    .link {
+        background:none;
+        width:11%;
+
+        button {
+            width:100%;
+            background:none;
+            border-color: #00000000;
+            padding:1rem;
+            transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+
+            img {
+                width:100%;
+                background:none;
+            }
+        }
+        button:hover {
+            transform:scale(0.95);
+            cursor: pointer;
+        }
+    }
 }
 .footnote {
     display:flex;
@@ -902,20 +979,24 @@ body {
     }
 
     .link {
+        background:none;
+        width:11%;
 
-        a {
-            text-decoration: none;
-            font-size:2vw;
-            font-family:sans-serif;
-            letter-spacing:0.05em;
-            color:rgb(185, 0, 0);
+        button {
+            width:100%;
+            background:none;
+            border-color: #00000000;
+            padding:1rem;
+            transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 
             img {
-                width:5%;
+                width:100%;
+                background:none;
             }
-            p {
-                font-size:2vw;
-            }
+        }
+        button:hover {
+            transform:scale(0.95);
+            cursor: pointer;
         }
     }
     .position {

@@ -21,6 +21,45 @@ body {
   opacity: 0;
 }
 
+.container-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  z-index: 100;
+  position: absolute;
+}
+
+.container-button .portfolio-button {
+  height: 200vh;
+  width: 150px;
+}
+
+.container-button .portfolio-button a {
+  position: sticky;
+  -webkit-position: -webkit-sticky;
+  top: 0;
+  border: 1px solid rgba(207, 206, 206, 0.76);
+  padding: 0.5rem;
+  background: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  -webkit-transition: .9s;
+  transition: .9s;
+  text-decoration: none;
+  font-family: ff-meta-web-pro, sans-serif;
+  color: rgba(207, 206, 206, 0.76);
+  letter-spacing: 0.1em;
+}
+
+.container-button .portfolio-button a:hover {
+  -webkit-box-shadow: 0 10px 100px -20px white;
+          box-shadow: 0 10px 100px -20px white;
+}
+
 @media only screen and (min-width: 769px) {
   .cover {
     display: -webkit-box;
@@ -495,6 +534,33 @@ body {
     font-size: 1em;
     letter-spacing: 0.1em;
     color: #5e5e5e;
+  }
+  .design-strategy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: 160vh;
+    margin-top: 10%;
+  }
+  .design-strategy h1 {
+    font-size: 5vw;
+    letter-spacing: 0.04em;
+    font-family: sans-serif;
+    margin-left: 3%;
+  }
+  .design-strategy p {
+    font-size: 1.1em;
+    line-height: 2em;
+    letter-spacing: 0.05em;
+    margin-right: 6%;
+    margin-left: 6%;
+    color: #c9c9c9;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .hatfieldrm {
     height: 100vh;
@@ -1029,6 +1095,27 @@ body {
     line-height: 1.8em;
     color: #cfcfcf;
   }
+  .end .link {
+    background: none;
+    width: 11%;
+  }
+  .end .link button {
+    width: 100%;
+    background: none;
+    border-color: #00000000;
+    padding: 1rem;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .end .link button img {
+    width: 100%;
+    background: none;
+  }
+  .end .link button:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    cursor: pointer;
+  }
   .footnote {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1060,18 +1147,26 @@ body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #cacaca;
   }
-  .footnote .link a {
-    text-decoration: none;
-    font-size: 2vw;
-    font-family: sans-serif;
-    letter-spacing: 0.05em;
-    color: #b90000;
+  .footnote .link {
+    background: none;
+    width: 11%;
   }
-  .footnote .link a img {
-    width: 5%;
+  .footnote .link button {
+    width: 100%;
+    background: none;
+    border-color: #00000000;
+    padding: 1rem;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
   }
-  .footnote .link a p {
-    font-size: 2vw;
+  .footnote .link button img {
+    width: 100%;
+    background: none;
+  }
+  .footnote .link button:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    cursor: pointer;
   }
   .footnote .position {
     width: 100vw;

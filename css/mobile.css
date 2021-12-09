@@ -470,6 +470,35 @@
     letter-spacing: 0.1em;
     color: #ebebeb;
   }
+  .design-strategy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    margin-top: 10%;
+  }
+  .design-strategy h1 {
+    font-size: 5vw;
+    letter-spacing: 0.04em;
+    font-family: sans-serif;
+    margin-left: 3%;
+  }
+  .design-strategy p {
+    font-size: 3.5vw;
+    letter-spacing: 0.04em;
+    line-height: 1.3em;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: #c9c9c9;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
   .hatfieldrm {
     width: 100vw;
     margin-top: 10%;

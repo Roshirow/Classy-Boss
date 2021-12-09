@@ -417,6 +417,29 @@
             }
         }
     }
+    .design-strategy {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        width:100vw;
+        margin-top:10%;
+  
+        h1 {
+            font-size:5vw;
+            letter-spacing:0.04em;
+            font-family: sans-serif;
+            margin-left:3%;
+        }
+        p {
+            font-size:3.5vw;
+            letter-spacing:0.04em;
+            line-height:1.3em;
+            margin-right:5%;
+            margin-left:5%;
+            color:rgb(201, 201, 201);
+            font-family:'M PLUS Rounded 1c', sans-serif;
+        }
+    }
     .hatfieldrm {
         width:100vw;
         margin-top:10%;
