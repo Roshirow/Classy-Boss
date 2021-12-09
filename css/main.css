@@ -21,46 +21,42 @@ body {
   opacity: 0;
 }
 
-.container-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100vw;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  z-index: 100;
-  position: absolute;
-}
-
-.container-button .portfolio-button {
-  height: 200vh;
-  width: 150px;
-}
-
-.container-button .portfolio-button a {
-  position: sticky;
-  -webkit-position: -webkit-sticky;
-  top: 0;
-  border: 1px solid rgba(207, 206, 206, 0.76);
-  padding: 0.5rem;
-  background: none;
-  border-radius: 8px;
-  font-size: 1.1em;
-  -webkit-transition: .9s;
-  transition: .9s;
-  text-decoration: none;
-  font-family: ff-meta-web-pro, sans-serif;
-  color: rgba(207, 206, 206, 0.76);
-  letter-spacing: 0.1em;
-}
-
-.container-button .portfolio-button a:hover {
-  -webkit-box-shadow: 0 10px 100px -20px white;
-          box-shadow: 0 10px 100px -20px white;
-}
-
 @media only screen and (min-width: 769px) {
+  .container-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    z-index: 100;
+    position: absolute;
+  }
+  .container-button .portfolio-button {
+    height: 200vh;
+    width: 150px;
+  }
+  .container-button .portfolio-button a {
+    position: sticky;
+    -webkit-position: -webkit-sticky;
+    top: 0;
+    border: 1px solid rgba(207, 206, 206, 0.76);
+    padding: 0.5rem;
+    background: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    -webkit-transition: .9s;
+    transition: .9s;
+    text-decoration: none;
+    font-family: ff-meta-web-pro, sans-serif;
+    color: rgba(207, 206, 206, 0.76);
+    letter-spacing: 0.1em;
+  }
+  .container-button .portfolio-button a:hover {
+    -webkit-box-shadow: 0 10px 100px -20px white;
+            box-shadow: 0 10px 100px -20px white;
+  }
   .cover {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -561,6 +557,27 @@ body {
     margin-left: 6%;
     color: #c9c9c9;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  #projects {
+    width: 100vw;
+  }
+  #projects h1 {
+    font-family: Impact;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+  #projects h2 {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: silver;
+  }
+  #projects p {
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #777777;
   }
   .hatfieldrm {
     height: 100vh;
@@ -1118,7 +1135,16 @@ body {
   }
   .end .download-resume {
     background: none;
-    width: 11%;
+    width: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .end .download-resume a {
     width: 100%;
@@ -1127,7 +1153,6 @@ body {
     text-decoration: none;
     background: none;
     border-color: #00000000;
-    padding: 1rem;
     -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
   }

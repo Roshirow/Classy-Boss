@@ -1,4 +1,39 @@
 @media only screen and (max-width: 768px) {
+  .container-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    z-index: 100;
+    position: absolute;
+  }
+  .container-button .portfolio-button {
+    height: 300vh;
+    width: 100px;
+  }
+  .container-button .portfolio-button a {
+    position: sticky;
+    -webkit-position: -webkit-sticky;
+    top: 0;
+    border: 1px solid rgba(207, 206, 206, 0.76);
+    padding: 0.3rem;
+    background: none;
+    border-radius: 8px;
+    font-size: 1em;
+    -webkit-transition: .9s;
+    transition: .9s;
+    text-decoration: none;
+    font-family: ff-meta-web-pro, sans-serif;
+    color: rgba(207, 206, 206, 0.76);
+    letter-spacing: 0.1em;
+  }
+  .container-button .portfolio-button a:hover {
+    -webkit-box-shadow: 0 10px 100px -20px white;
+            box-shadow: 0 10px 100px -20px white;
+  }
   .cover {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -180,7 +215,7 @@
   }
   .angles {
     position: absolute;
-    z-index: -1;
+    z-index: -100;
     width: 100%;
     top: 90%;
     height: 30%;
@@ -498,6 +533,27 @@
     margin-left: 5%;
     color: #c9c9c9;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  #projects {
+    width: 100vw;
+  }
+  #projects h1 {
+    font-family: Impact;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+  #projects h2 {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: silver;
+  }
+  #projects p {
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #777777;
   }
   .hatfieldrm {
     width: 100vw;
@@ -1021,6 +1077,59 @@
     line-height: 1.3em;
     font-family: sans-serif;
   }
+  .end .link {
+    background: none;
+    width: 25%;
+  }
+  .end .link button {
+    width: 100%;
+    background: none;
+    border-color: #00000000;
+    padding: 1rem;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .end .link button img {
+    width: 100%;
+    background: none;
+  }
+  .end .link button:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    cursor: pointer;
+  }
+  .end .download-resume {
+    background: none;
+    width: 19%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .end .download-resume a {
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    background: none;
+    border-color: #00000000;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .end .download-resume a img {
+    width: 100%;
+    background: none;
+  }
+  .end .download-resume a:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    cursor: pointer;
+  }
   .footnote {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1052,15 +1161,26 @@
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #cacaca;
   }
-  .footnote .link a {
-    text-decoration: none;
-    font-size: 2vw;
-    font-family: sans-serif;
-    letter-spacing: 0.05em;
-    color: #b90000;
+  .footnote .link {
+    background: none;
+    width: 25%;
   }
-  .footnote .link a img {
-    width: 8%;
+  .footnote .link button {
+    width: 100%;
+    background: none;
+    border-color: #00000000;
+    padding: 1rem;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .footnote .link button img {
+    width: 100%;
+    background: none;
+  }
+  .footnote .link button:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    cursor: pointer;
   }
   .footnote .position {
     width: 100vw;

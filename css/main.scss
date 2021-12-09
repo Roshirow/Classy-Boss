@@ -20,17 +20,18 @@ body {
     opacity:0;
 }
 
+@media only screen and (min-width: 769px) {
 .container-button {
     display:flex;
     width: 100vw;
     justify-content: end;
     z-index:100;
     position: absolute;
-
+    
     .portfolio-button {
         height:200vh;
         width:150px;
-    
+        
         a {
         position: sticky;
         -webkit-position: sticky;
@@ -46,14 +47,12 @@ body {
         color:rgba(207, 206, 206, 0.76);
         letter-spacing: 0.1em;
         }
-
+    
         a:hover {
             box-shadow: 0 10px 100px -20px white;
         }
     }
 }
-
-@media only screen and (min-width: 769px) {
 .cover {
     display:flex;
     height:100vh;
@@ -518,6 +517,28 @@ body {
         font-family:'M PLUS Rounded 1c', sans-serif;
     }
   }
+  #projects {
+      width:100vw;
+
+      h1 {
+          font-family:Impact;
+          font-size:4em;
+          letter-spacing:0.1em;
+          font-weight:bold;
+      }
+      h2 {
+        font-size:2em;
+        letter-spacing:0.05em;
+        font-family:sans-serif;
+        color:rgb(192, 192, 192);
+      }
+      p {
+        font-size:1.3em;
+        letter-spacing:0.05em;
+        font-family:sans-serif;
+        color:rgb(119, 119, 119);
+      }
+  }
   .hatfieldrm {
       height:100vh;
       width:100vw;
@@ -952,7 +973,10 @@ body {
     }
     .download-resume {
         background:none;
-        width:11%;
+        width:8%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
 
         a {
             width:100%;
@@ -961,7 +985,6 @@ body {
             text-decoration: none;
             background:none;
             border-color: #00000000;
-            padding:1rem;
             transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 
             img {

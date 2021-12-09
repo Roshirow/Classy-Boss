@@ -1,4 +1,36 @@
 @media only screen and (max-width: 768px) {
+    .container-button {
+        display:flex;
+        width: 100vw;
+        justify-content: end;
+        z-index:100;
+        position: absolute;
+        
+        .portfolio-button {
+            height:300vh;
+            width:100px;
+            
+            a {
+            position: sticky;
+            -webkit-position: sticky;
+            top:0;
+            border:1px solid rgba(207, 206, 206, 0.76);
+            padding: 0.3rem;
+            background: none;
+            border-radius: 8px;
+            font-size:1em;
+            transition: .9s;
+            text-decoration: none;
+            font-family: ff-meta-web-pro, sans-serif;
+            color:rgba(207, 206, 206, 0.76);
+            letter-spacing: 0.1em;
+            }
+        
+            a:hover {
+                box-shadow: 0 10px 100px -20px white;
+            }
+        }
+    }
     .cover {
         display:flex;
         color:white;
@@ -145,7 +177,7 @@
     }
     .angles {
         position:absolute;
-        z-index:-1;
+        z-index:-100;
         width:100%;
         top:90%;
         height:30%;
@@ -438,6 +470,28 @@
             margin-left:5%;
             color:rgb(201, 201, 201);
             font-family:'M PLUS Rounded 1c', sans-serif;
+        }
+    }
+    #projects {
+        width:100vw;
+  
+        h1 {
+            font-family:Impact;
+            font-size:4em;
+            letter-spacing:0.1em;
+            font-weight:bold;
+        }
+        h2 {
+          font-size:2em;
+          letter-spacing:0.05em;
+          font-family:sans-serif;
+          color:rgb(192, 192, 192);
+        }
+        p {
+          font-size:1.3em;
+          letter-spacing:0.05em;
+          font-family:sans-serif;
+          color:rgb(119, 119, 119);
         }
     }
     .hatfieldrm {
@@ -830,6 +884,53 @@
             line-height:1.3em;
             font-family:sans-serif;
         }
+        .link {
+            background:none;
+            width:25%;
+    
+            button {
+                width:100%;
+                background:none;
+                border-color: #00000000;
+                padding:1rem;
+                transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    
+                img {
+                    width:100%;
+                    background:none;
+                }
+            }
+            button:hover {
+                transform:scale(0.95);
+                cursor: pointer;
+            }
+        }
+        .download-resume {
+            background:none;
+            width:19%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+    
+            a {
+                width:100%;
+                color:white;
+                font-family:sans-serif;
+                text-decoration: none;
+                background:none;
+                border-color: #00000000;
+                transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    
+                img {
+                    width:100%;
+                    background:none;
+                }
+            }
+            a:hover {
+                transform:scale(0.95);
+                cursor: pointer;
+            }
+        }
     }
     .footnote {
         display:flex;
@@ -859,17 +960,24 @@
         }
     
         .link {
-
-            a {
-                text-decoration: none;
-                font-size:2vw;
-                font-family:sans-serif;
-                letter-spacing:0.05em;
-                color:rgb(185, 0, 0);
+            background:none;
+            width:25%;
+    
+            button {
+                width:100%;
+                background:none;
+                border-color: #00000000;
+                padding:1rem;
+                transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     
                 img {
-                    width:8%;
+                    width:100%;
+                    background:none;
                 }
+            }
+            button:hover {
+                transform:scale(0.95);
+                cursor: pointer;
             }
         }
         .position {
