@@ -1116,6 +1116,30 @@ body {
             transform: scale(0.95);
     cursor: pointer;
   }
+  .end .download-resume {
+    background: none;
+    width: 11%;
+  }
+  .end .download-resume a {
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    background: none;
+    border-color: #00000000;
+    padding: 1rem;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .end .download-resume a img {
+    width: 100%;
+    background: none;
+  }
+  .end .download-resume a:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    cursor: pointer;
+  }
   .footnote {
     display: -webkit-box;
     display: -ms-flexbox;

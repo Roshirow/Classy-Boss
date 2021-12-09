@@ -950,6 +950,30 @@ body {
             cursor: pointer;
         }
     }
+    .download-resume {
+        background:none;
+        width:11%;
+
+        a {
+            width:100%;
+            color:white;
+            font-family:sans-serif;
+            text-decoration: none;
+            background:none;
+            border-color: #00000000;
+            padding:1rem;
+            transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+
+            img {
+                width:100%;
+                background:none;
+            }
+        }
+        a:hover {
+            transform:scale(0.95);
+            cursor: pointer;
+        }
+    }
 }
 .footnote {
     display:flex;
