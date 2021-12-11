@@ -579,6 +579,93 @@ body {
     font-family: sans-serif;
     color: #777777;
   }
+  .what-ya-get {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .what-ya-get .row1 {
+    width: 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .what-ya-get .row1 #line {
+    background: #c50505;
+    width: 90px;
+    height: 3px;
+  }
+  .what-ya-get .row1 h1 {
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #dddbdb;
+  }
+  .what-ya-get .row2 {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .what-ya-get .row2 #column1, .what-ya-get .row2 #column2, .what-ya-get .row2 #column3, .what-ya-get .row2 #column4 {
+    width: 20%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+  .what-ya-get .row2 #column1 h2, .what-ya-get .row2 #column2 h2, .what-ya-get .row2 #column3 h2, .what-ya-get .row2 #column4 h2 {
+    font-size: 130%;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #cccccc;
+    text-align: center;
+  }
+  .what-ya-get .row2 #column1 p, .what-ya-get .row2 #column2 p, .what-ya-get .row2 #column3 p, .what-ya-get .row2 #column4 p {
+    font-size: 100%;
+    letter-spacing: 0.04em;
+    font-family: sans-serif;
+    color: #b6b6b6;
+    text-align: center;
+  }
   .hatfieldrm {
     height: 100vh;
     width: 100vw;

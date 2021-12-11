@@ -539,6 +539,65 @@ body {
         color:rgb(119, 119, 119);
       }
   }
+  .what-ya-get {
+      width:100vw;
+      height:40vh;
+      margin-top:10%;
+      margin-bottom:10%;
+      display:flex;
+      flex-direction: column;
+
+      .row1 {
+          width:33%;
+          display:flex;
+          flex-direction:row;
+          align-items: center;
+          justify-content: space-evenly;
+
+          #line {
+              background:#c50505;
+              width:90px;
+              height:3px;
+          }
+          h1 {
+              font-size:1.5em;
+              letter-spacing:0.05em;
+              font-family:sans-serif;
+              color:#dddbdb
+          }
+      }
+      .row2 {
+        width:100vw;
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        #column1, #column2, #column3, #column4 {
+            width:20%;
+            height:100%;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: stretch;
+
+            h2 {
+                font-size:130%;
+                letter-spacing: 0.05em;
+                font-family:sans-serif;
+                color:#cccccc;
+                text-align:center;
+            }
+            p {
+                font-size:100%;
+                letter-spacing: 0.04em;
+                font-family:sans-serif;
+                color:#b6b6b6;
+                text-align:center;
+            }
+        }
+      }
+  }
   .hatfieldrm {
       height:100vh;
       width:100vw;

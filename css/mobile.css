@@ -555,6 +555,97 @@
     font-family: sans-serif;
     color: #777777;
   }
+  .what-ya-get {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .what-ya-get .row1 {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .what-ya-get .row1 #line {
+    background: #c50505;
+    width: 50px;
+    height: 3px;
+  }
+  .what-ya-get .row1 h1 {
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #dddbdb;
+  }
+  .what-ya-get .row2 {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .what-ya-get .row2 #column1, .what-ya-get .row2 #column2, .what-ya-get .row2 #column3, .what-ya-get .row2 #column4 {
+    width: 40%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .what-ya-get .row2 #column1 h2, .what-ya-get .row2 #column2 h2, .what-ya-get .row2 #column3 h2, .what-ya-get .row2 #column4 h2 {
+    font-size: 110%;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: #cccccc;
+    text-align: center;
+  }
+  .what-ya-get .row2 #column1 p, .what-ya-get .row2 #column2 p, .what-ya-get .row2 #column3 p, .what-ya-get .row2 #column4 p {
+    font-size: 90%;
+    letter-spacing: 0.04em;
+    font-family: sans-serif;
+    color: #b6b6b6;
+    text-align: center;
+  }
   .hatfieldrm {
     width: 100vw;
     margin-top: 10%;
