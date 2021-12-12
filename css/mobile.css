@@ -34,6 +34,42 @@
     -webkit-box-shadow: 0 10px 100px -20px white;
             box-shadow: 0 10px 100px -20px white;
   }
+  .container-second-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 110%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    z-index: 100;
+    position: absolute;
+    margin-top: 20%;
+  }
+  .container-second-button .top-button {
+    height: 300vh;
+    width: 100px;
+  }
+  .container-second-button .top-button a {
+    position: sticky;
+    -webkit-position: -webkit-sticky;
+    top: 0;
+    border: 1px solid rgba(207, 206, 206, 0.76);
+    padding: 0.3rem;
+    background: none;
+    border-radius: 8px;
+    font-size: 1em;
+    -webkit-transition: .9s;
+    transition: .9s;
+    text-decoration: none;
+    font-family: ff-meta-web-pro, sans-serif;
+    color: rgba(207, 206, 206, 0.76);
+    letter-spacing: 0.1em;
+  }
+  .container-second-button .top-button a:hover {
+    -webkit-box-shadow: 0 10px 100px -20px white;
+            box-shadow: 0 10px 100px -20px white;
+  }
   .cover {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -358,9 +394,9 @@
     color: #dddddd;
   }
   .aboutme-page .about-text h2 {
-    font-size: 5vw;
-    letter-spacing: 0.2em;
-    color: #e7e7e7;
+    font-size: 1.9em;
+    letter-spacing: 0.05em;
+    color: red;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .aboutme-page .about-text p {

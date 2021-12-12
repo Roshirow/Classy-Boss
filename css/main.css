@@ -57,6 +57,41 @@ body {
     -webkit-box-shadow: 0 10px 100px -20px white;
             box-shadow: 0 10px 100px -20px white;
   }
+  .container-second-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 105%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    z-index: 100;
+    position: absolute;
+  }
+  .container-second-button .top-button {
+    height: 200vh;
+    width: 150px;
+  }
+  .container-second-button .top-button a {
+    position: sticky;
+    -webkit-position: -webkit-sticky;
+    top: 0;
+    border: 1px solid rgba(207, 206, 206, 0.76);
+    padding: 0.5rem;
+    background: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    -webkit-transition: .9s;
+    transition: .9s;
+    text-decoration: none;
+    font-family: ff-meta-web-pro, sans-serif;
+    color: rgba(207, 206, 206, 0.76);
+    letter-spacing: 0.1em;
+  }
+  .container-second-button .top-button a:hover {
+    -webkit-box-shadow: 0 10px 100px -20px white;
+            box-shadow: 0 10px 100px -20px white;
+  }
   .cover {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -394,7 +429,7 @@ body {
   .aboutme-page .about-text h2 {
     font-size: 2.5em;
     letter-spacing: 0.2em;
-    color: #c5c5c5;
+    color: #a50505;
     font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   .aboutme-page .about-text p {
