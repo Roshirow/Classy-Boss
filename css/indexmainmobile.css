@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0a0a0a;
+  color: white;
+  overflow: hidden;
+}
+
+*, *:before, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#information {
+  display: none;
+  color: black;
+  background-color: black;
+  opacity: 0;
+}
+
+h1 {
+  font-size: 13vw;
+  font-family: Calibri;
+  text-align: center;
+}
+
+h2 {
+  font-size: 10vw;
+  font-family: Calibri;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .introduction {
+    width: 0vw;
+    height: 0vh;
+    background: #0a0a0a;
+    z-index: 5;
+    position: absolute;
+    opacity: 0;
+    -webkit-animation-name: scaledown;
+            animation-name: scaledown;
+    -webkit-animation-duration: 12s;
+            animation-duration: 12s;
+    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .main .introduction h1 {
+    opacity: 0;
+    -webkit-animation-name: fadein;
+            animation-name: fadein;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  @-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .main .introduction h2 {
+    opacity: 0;
+    -webkit-animation-name: fadein;
+            animation-name: fadein;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes scaledown {
+    0% {
+      opacity: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+    90% {
+      opacity: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+  @keyframes scaledown {
+    0% {
+      opacity: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+    90% {
+      opacity: 1;
+      width: 100vw;
+      height: 100vh;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+  }
+  .main .questionbox {
+    background: #fafafa;
+    border-radius: 25px;
+    padding: 10 0 10 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  .main .questionbox h1 {
+    font-size: 8vw;
+    color: black;
+  }
+  .main .questionbox button {
+    font-size: 6vw;
+    padding: 10 20 10 20;
+    color: black;
+    background-color: transparent;
+    margin: 10px;
+    border: transparent;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .main .questionbox button a {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .main .questionbox button a:hover {
+    color: violet;
+  }
+  .main .questionbox button:hover {
+    color: violet;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=indexmainmobile.css.map */

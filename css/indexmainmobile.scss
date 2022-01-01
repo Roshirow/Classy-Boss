@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding:0;
+    width:100vw;
+    height: 100vh;
+    background:rgb(10, 10, 10);
+    color:rgb(255, 255, 255);
+    overflow:hidden;
+}
+
+*, *:before, *:before {
+    box-sizing: border-box;
+}
+
+#information {
+    display:none;
+    color:black;
+    background-color:black;
+    opacity:0;
+}
+h1 {
+    font-size:13vw;
+    font-family: Calibri;
+    text-align:center;
+}
+h2 {
+    font-size:10vw;
+    font-family:Calibri;
+    text-align:center;
+}
+
+@media only screen and (max-width: 768px) {
+.main {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    .introduction {
+        width:0vw;
+        height:0vh;
+        background:rgb(10, 10, 10);
+        z-index:5;
+        position:absolute;
+        opacity:0;
+        animation-name:scaledown;
+        animation-duration:12s;
+        animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+        h1 {
+            opacity:0;
+            animation-name: fadein;
+            animation-duration:5s;
+            animation-delay: 3s;
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        @keyframes fadein {
+            0% {
+                opacity:0;
+            }
+            50% {
+                opacity:1;
+            }
+            100% {
+                opacity:0;
+            }
+        }
+
+        h2 {
+            opacity:0;
+            animation-name: fadein;
+            animation-duration:5s;
+            animation-delay: 6s;
+            animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        @keyframes fadein {
+            0% {
+                opacity:0;
+            }
+            50% {
+                opacity:1;
+            }
+            100% {
+                opacity:0;
+            }
+        }
+    }
+    @keyframes scaledown {
+        0% {
+            opacity:1;
+            width:100vw;
+            height:100vh;
+        }
+        90% {
+            opacity:1;
+            width:100vw;
+            height:100vh;
+        }
+        100% {
+            opacity:0;
+            display:none;
+        }
+    }
+
+    .questionbox {
+        background:rgb(250, 250, 250);
+        border-radius: 25px;
+        padding: 10 0 10 0;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        margin-bottom:100px;
+        
+        h1 {
+            font-size:8vw;
+            color:black;
+        }
+        button {
+            font-size:6vw;
+            padding: 10 20 10 20;
+            color:black;
+            background-color:transparent;
+            margin:10px;
+            border:transparent;
+            transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+
+            a{
+                text-decoration: none;
+                color:black;
+                transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+            }
+            a:hover {
+                color:violet;
+            }
+        }
+        button:hover {
+            color:violet;
+            font-weight:bold;
+            cursor:pointer;
+        }
+    }
+}
+}
