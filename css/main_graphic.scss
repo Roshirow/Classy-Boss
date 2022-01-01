@@ -62,6 +62,7 @@ p {
     .intro {
         display:flex;
         flex-direction:column;
+        width:50vw;
 
         h1 {
             color:rgba(207, 207, 207, 0.5);
@@ -86,12 +87,13 @@ p {
             margin-right:50px;
             font-weight:normal;
         }
-    }
+
     .contactme {
         display:flex;
         flex-direction:row;
         justify-content:space-evenly;
         align-items:center;
+        width:50vw;
 
         button {
             font-weight: bold;
@@ -116,6 +118,7 @@ p {
             position:absolute;
         }
     }
+}
     #body_profile {
         height:80vh;
         width: fit-content;
@@ -361,6 +364,7 @@ p {
         align-items:center;
         width:75vw;
         margin-top:100px;
+        margin-bottom:200px;
     
         button {
             font-weight:bold;

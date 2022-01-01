@@ -80,6 +80,7 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 50vw;
   }
   .cover .intro h1 {
     color: rgba(207, 207, 207, 0.5);
@@ -104,7 +105,7 @@ p {
     margin-right: 50px;
     font-weight: normal;
   }
-  .cover .contactme {
+  .cover .intro .contactme {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -118,8 +119,9 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 50vw;
   }
-  .cover .contactme button {
+  .cover .intro .contactme button {
     font-weight: bold;
     padding: 15 40 15 40;
     border: solid 2px #ff7f2a;
@@ -129,14 +131,14 @@ p {
     -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
   }
-  .cover .contactme button:hover {
+  .cover .intro .contactme button:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     background-color: #ff7f2a;
     color: white;
     border: none;
   }
-  .cover .contactme #myInput {
+  .cover .intro .contactme #myInput {
     color: white;
     background-color: transparent;
     border: none;
@@ -488,6 +490,7 @@ p {
             align-items: center;
     width: 75vw;
     margin-top: 100px;
+    margin-bottom: 200px;
   }
   .contactme #contactme button {
     font-weight: bold;
