@@ -5,8 +5,7 @@ body {
     height: 100vh;
     background:rgb(10, 10, 10);
     color:rgb(255, 255, 255);
-    overflow-x:hidden;
-    scroll-behavior: smooth;
+    overflow:hidden;
 }
 
 *, *:before, *:before {
