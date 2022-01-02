@@ -23,21 +23,21 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 4vw;
+  font-size: 10vw;
   text-transform: uppercase;
   font-family: Verdana, sans-serif;
   color: #f06000;
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: 7vw;
   letter-spacing: 0.04em;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #ec6d18;
 }
 
 h3 {
-  font-size: 1.6vw;
+  font-size: 5vw;
   letter-spacing: 0.04em;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #ff7f2a;
@@ -45,7 +45,7 @@ h3 {
 }
 
 p {
-  font-size: 1.6vw;
+  font-size: 4vw;
   letter-spacing: 0.04em;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #242424;
@@ -59,10 +59,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: center;
@@ -80,26 +80,28 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 50vw;
+    width: 85vw;
   }
   .cover .intro h1 {
     color: rgba(207, 207, 207, 0.5);
     z-index: -100;
     position: absolute;
-    font-size: 5vw;
+    top: 3%;
+    font-size: 10vw;
     font-family: cursive;
   }
   .cover .intro h2 {
     color: black;
-    font-size: 3vw;
+    font-size: 8vw;
     margin-top: 100px;
     margin-left: 50px;
   }
   .cover .intro h3 {
-    font-size: 2vw;
+    font-size: 5vw;
     margin-left: 50px;
   }
   .cover .intro p {
+    font-size: 4vw;
     color: #242424;
     margin-left: 50px;
     margin-right: 50px;
@@ -119,7 +121,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50vw;
+    width: 85vw;
   }
   .cover .intro .contactme button {
     font-weight: bold;
@@ -146,7 +148,7 @@ p {
     position: absolute;
   }
   .cover #body_profile {
-    height: 80vh;
+    height: 40vh;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -154,11 +156,11 @@ p {
   .cover #blob {
     z-index: -100;
     position: absolute;
-    top: 48%;
-    right: 80%;
+    top: 86%;
+    right: 50%;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
-    width: 40vw;
+    width: 60vw;
   }
   .project_digitalart {
     width: 100vw;
@@ -166,10 +168,10 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-pack: space-evenly;
@@ -178,15 +180,16 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 300px;
   }
   .project_digitalart #text_warefare {
-    width: 40vw;
+    width: 85vw;
   }
   .project_digitalart #image_warefare {
-    width: 40vw;
+    width: 85vw;
   }
   .project_digitalart #image_warefare img {
-    width: 40vw;
+    width: 85vw;
   }
   .project_logo {
     width: 100vw;
@@ -203,18 +206,19 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 300px;
   }
   .project_logo #text1_logo {
-    width: 75vw;
+    width: 85vw;
   }
   .project_logo #textandimages_logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     width: 100vw;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -224,10 +228,10 @@ p {
             align-items: center;
   }
   .project_logo #textandimages_logo #text2_logo {
-    width: 40vw;
+    width: 85vw;
   }
   .project_logo #textandimages_logo #images_logo {
-    width: 45vw;
+    width: 85vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -237,16 +241,16 @@ p {
         justify-content: space-around;
   }
   .project_logo #textandimages_logo #images_logo img {
-    width: 20vw;
+    width: 42vw;
   }
   .project_logo #textandimages2_logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100vw;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -256,7 +260,7 @@ p {
             align-items: center;
   }
   .project_logo #textandimages2_logo #image1_logo {
-    width: 45vw;
+    width: 85vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -265,10 +269,10 @@ p {
             justify-content: center;
   }
   .project_logo #textandimages2_logo #image1_logo img {
-    width: 20vw;
+    width: 50vw;
   }
   .project_logo #textandimages2_logo #text3_logo {
-    width: 40vw;
+    width: 85vw;
   }
   .project_logo #mockimage_logo {
     display: -webkit-box;
@@ -278,9 +282,10 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 50px;
   }
   .project_logo #mockimage_logo img {
-    width: 60vw;
+    width: 90vw;
   }
   .project_beer {
     width: 100vw;
@@ -294,6 +299,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 100px;
   }
   .project_beer #text1_beer {
     width: 75vw;
@@ -303,11 +309,11 @@ p {
   }
   .project_beer #text2_beer #quote {
     text-align: center;
-    font-size: 1.9vw;
+    font-size: 4.2vw;
     color: #1515e4;
   }
   .project_beer #images1_beer {
-    width: 75vw;
+    width: 90vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -323,10 +329,10 @@ p {
             align-items: center;
   }
   .project_beer #images1_beer img {
-    width: 25vw;
+    width: 30vw;
   }
   .project_beer #images2_beer {
-    width: 75vw;
+    width: 85vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -342,7 +348,7 @@ p {
             align-items: center;
   }
   .project_beer #images2_beer img {
-    width: 37vw;
+    width: 42vw;
   }
   .project_beer #beerprototype {
     display: -webkit-box;
@@ -354,7 +360,7 @@ p {
             justify-content: center;
   }
   .project_beer #beerprototype img {
-    width: 60vw;
+    width: 90vw;
   }
   .year_project {
     width: 100vw;
@@ -368,6 +374,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: 100px;
   }
   .year_project #project_2021 {
     width: 75vw;
@@ -383,10 +390,10 @@ p {
             align-items: center;
   }
   .year_project #project_2021 img {
-    width: 50vw;
+    width: 75vw;
   }
   .end {
-    width: 100vw;
+    width: 85vw;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -395,13 +402,14 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     margin-top: 10%;
+    text-align: center;
   }
   .end .link {
     background: none;
@@ -473,6 +481,7 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   .contactme #contactme {
     display: -webkit-box;
