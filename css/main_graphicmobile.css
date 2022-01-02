@@ -86,7 +86,7 @@
   .cover .intro h2 {
     color: black;
     font-size: 8vw;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 50px;
   }
   .cover .intro h3 {
@@ -115,6 +115,7 @@
         -ms-flex-align: center;
             align-items: center;
     width: 85vw;
+    margin-bottom: 50px;
   }
   .cover .intro .contactme button {
     font-weight: bold;
@@ -141,19 +142,19 @@
     position: absolute;
   }
   .cover #body_profile {
-    height: 40vh;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 50vw;
   }
   .cover #blob {
     z-index: -100;
     position: absolute;
-    top: 86%;
+    top: 100%;
     right: 50%;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
-    width: 60vw;
+    width: 50vw;
   }
   .project_digitalart {
     width: 100vw;
@@ -173,7 +174,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 300px;
+    margin-top: 430px;
   }
   .project_digitalart #text_warefare {
     width: 85vw;
