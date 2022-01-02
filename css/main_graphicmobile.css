@@ -65,6 +65,44 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .cover .back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20vw;
+    z-index: 100;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+  }
+  .cover .back button {
+    width: 50px;
+    height: 50px;
+    border: solid 2px #ff7f2a;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .cover .back button #previous {
+    display: inline-block;
+    color: #ff7f2a;
+    text-decoration: none;
+    font-size: 10vw;
+    line-height: 0;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .cover .back button #previous:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #ff7f2a;
+    color: white;
+    border: none;
+  }
+  .cover .back button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #ff7f2a;
+  }
   .cover .intro {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -79,14 +117,14 @@
     color: rgba(207, 207, 207, 0.5);
     z-index: -100;
     position: absolute;
-    top: 3%;
+    top: 15%;
     font-size: 10vw;
     font-family: cursive;
   }
   .cover .intro h2 {
     color: black;
     font-size: 8vw;
-    margin-top: 200px;
+    margin-top: 350px;
     margin-left: 50px;
   }
   .cover .intro h3 {
@@ -150,7 +188,7 @@
   .cover #blob {
     z-index: -100;
     position: absolute;
-    top: 100%;
+    top: 118%;
     right: 50%;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
@@ -174,7 +212,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 430px;
+    margin-top: 530px;
   }
   .project_digitalart #text_warefare {
     width: 85vw;

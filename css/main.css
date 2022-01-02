@@ -99,6 +99,44 @@ body {
     height: 100vh;
     width: 100vw;
   }
+  .cover .back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20vw;
+    z-index: 100;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+  }
+  .cover .back button {
+    width: 50px;
+    height: 50px;
+    border: solid 2px #a50505;
+    background-color: black;
+    border-radius: 50%;
+  }
+  .cover .back button #previous {
+    display: inline-block;
+    color: #a50505;
+    text-decoration: none;
+    font-size: 5vw;
+    line-height: 0;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .cover .back button #previous:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #a50505;
+    color: black;
+    border: none;
+  }
+  .cover .back button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #a50505;
+  }
   .cover .display {
     height: 100vh;
     display: -webkit-box;

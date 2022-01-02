@@ -72,6 +72,44 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .cover .back {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20vw;
+    z-index: 100;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+  }
+  .cover .back button {
+    width: 50px;
+    height: 50px;
+    border: solid 2px #ff7f2a;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .cover .back button #previous {
+    display: inline-block;
+    color: #ff7f2a;
+    text-decoration: none;
+    font-size: 5vw;
+    line-height: 0;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .cover .back button #previous:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #ff7f2a;
+    color: white;
+    border: none;
+  }
+  .cover .back button:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #ff7f2a;
+  }
   .cover .intro {
     display: -webkit-box;
     display: -ms-flexbox;
