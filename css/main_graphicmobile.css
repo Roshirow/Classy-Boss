@@ -21,19 +21,19 @@
   }
   h1 {
     text-align: center;
-    font-size: 10vw;
+    font-size: 9vw;
     text-transform: uppercase;
     font-family: Verdana, sans-serif;
     color: #f06000;
   }
   h2 {
-    font-size: 7vw;
+    font-size: 5.3vw;
     letter-spacing: 0.04em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #ec6d18;
   }
   h3 {
-    font-size: 5vw;
+    font-size: 4.5vw;
     letter-spacing: 0.04em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     color: #ff7f2a;
@@ -223,6 +223,84 @@
   .project_digitalart #image_warefare img {
     width: 85vw;
   }
+  .project_fage {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 300px;
+  }
+  .project_fage #introfage {
+    width: 85vw;
+  }
+  .project_fage #context_fage {
+    width: 85vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .project_fage #context_fage #text1_fage {
+    width: 85vw;
+  }
+  .project_fage #context_fage #image1_fage {
+    width: 85vw;
+  }
+  .project_fage #context_fage #image1_fage img {
+    width: 85vw;
+  }
+  .project_fage #text2_fage {
+    width: 85vw;
+  }
+  .project_fage #image2_fage {
+    width: 85vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project_fage #image2_fage img {
+    width: 85vw;
+  }
+  .project_fage #clicktopresentation {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project_fage #clicktopresentation img {
+    width: 75vw;
+    border: solid 1px #ff7f2a;
+    border-radius: 5px;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .project_fage #clicktopresentation img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+  }
   .project_logo {
     width: 100vw;
     display: -webkit-box;
@@ -238,7 +316,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 300px;
+    margin-top: 100px;
   }
   .project_logo #text1_logo {
     width: 85vw;
@@ -334,10 +412,10 @@
     margin-top: 100px;
   }
   .project_beer #text1_beer {
-    width: 75vw;
+    width: 85vw;
   }
   .project_beer #text2_beer {
-    width: 75vw;
+    width: 85vw;
   }
   .project_beer #text2_beer #quote {
     text-align: center;
@@ -409,7 +487,7 @@
     margin-top: 100px;
   }
   .year_project #project_2021 {
-    width: 75vw;
+    width: 85vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

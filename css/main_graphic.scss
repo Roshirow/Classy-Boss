@@ -190,6 +190,66 @@ p {
     }
 }
 
+.project_fage {
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    #introfage {
+        width:75vw;
+    }
+
+    #context_fage {
+        width:100vw;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content: space-evenly;
+
+        #text1_fage {
+            width:40vw;
+        }
+        #image1_fage {
+            width:40vw;
+
+            img {
+                width:40vw;
+            }
+        }
+    }
+
+    #text2_fage {
+        width:75vw;
+    }
+    #image2_fage {
+        width:75vw;
+        display:flex;
+        justify-content: center;
+
+        img {
+            width:50vw;
+        }
+    }
+
+    #clicktopresentation {
+        width:100vw;
+        display:flex;
+        justify-content: center;
+
+        img {
+            width:35vw;
+            border: solid 1px rgb(255, 127, 42);
+            border-radius: 5px;
+            transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        img:hover {
+            transform:scale(1.1);
+            cursor:pointer;
+        }
+    }
+}
+
 .project_logo {
     width:100vw;
     display:flex;

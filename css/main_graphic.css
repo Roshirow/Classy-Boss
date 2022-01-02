@@ -226,6 +226,83 @@ p {
   .project_digitalart #image_warefare img {
     width: 40vw;
   }
+  .project_fage {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .project_fage #introfage {
+    width: 75vw;
+  }
+  .project_fage #context_fage {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .project_fage #context_fage #text1_fage {
+    width: 40vw;
+  }
+  .project_fage #context_fage #image1_fage {
+    width: 40vw;
+  }
+  .project_fage #context_fage #image1_fage img {
+    width: 40vw;
+  }
+  .project_fage #text2_fage {
+    width: 75vw;
+  }
+  .project_fage #image2_fage {
+    width: 75vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project_fage #image2_fage img {
+    width: 50vw;
+  }
+  .project_fage #clicktopresentation {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .project_fage #clicktopresentation img {
+    width: 35vw;
+    border: solid 1px #ff7f2a;
+    border-radius: 5px;
+    -webkit-transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .project_fage #clicktopresentation img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+  }
   .project_logo {
     width: 100vw;
     display: -webkit-box;
